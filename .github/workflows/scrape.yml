@@ -1,0 +1,47 @@
+name: Daily Opportunity Scrape
+
+on:
+  schedule:
+    # Runs at 11 PM UTC daily. Adjust to your timezone:
+    # 11 PM IST = 5:30 PM UTC → use "30 17 * * *"
+    # 11 PM EST = 4 AM UTC next day → use "0 4 * * *"
+    # 11 PM UTC = "0 23 * * *"
+    - cron: "0 23 * * *"
+  workflow_dispatch: # allows manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        env:
+          TWITTER_USERNAME: ${{ secrets.TWITTER_USERNAME }}
+          TWITTER_EMAIL: ${{ secrets.TWITTER_EMAIL }}
+          TWITTER_PASSWORD: ${{ secrets.TWITTER_PASSWORD }}
+        run: python scraper/scrape.py
+
+      - name: Generate HTML
+        run: python scraper/generate_html.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "xrss-bot"
+          git config user.email "xrss-bot@users.noreply.github.com"
+          git add data/ docs/
+          git diff --staged --quiet || git commit -m "Daily digest: $(date -u +%Y-%m-%d)"
+          git push
