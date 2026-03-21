@@ -28,7 +28,7 @@ def escape(text: str) -> str:
     return html.escape(text or "")
 
 
-def render_tweet_card(tweet: dict) -> str:
+def render_tweet_card(tweet: dict, day_id: str, cat_id: str) -> str:
     user = tweet.get("user", {})
     name = escape(user.get("name", "Unknown"))
     handle = escape(user.get("screen_name", "unknown"))
@@ -40,7 +40,7 @@ def render_tweet_card(tweet: dict) -> str:
     profile_img = escape(user.get("profile_image", ""))
 
     return f"""
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="{day_id}" data-cat="{cat_id}">
       <div class="tweet-header">
         <img src="{profile_img}" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -58,7 +58,7 @@ def render_tweet_card(tweet: dict) -> str:
     </div>"""
 
 
-def render_day_content(data: dict) -> str:
+def render_day_content(data: dict, day_id: str) -> str:
     tweets = data.get("tweets", [])
     if not tweets:
         return '<p class="empty">No tweets found for this day.</p>'
@@ -68,20 +68,34 @@ def render_day_content(data: dict) -> str:
         cat = categorize_tweet(tweet)
         categorized.setdefault(cat, []).append(tweet)
 
-    sections = []
-    for category in list(CATEGORIES.keys()) + ["Other"]:
+    # Category filter buttons in a row
+    cat_buttons = []
+    all_cards = []
+    all_categories = list(CATEGORIES.keys()) + ["Other"]
+
+    for category in all_categories:
         cat_tweets = categorized.get(category, [])
         if not cat_tweets:
             continue
-        cards = "\n".join(render_tweet_card(t) for t in cat_tweets)
-        sections.append(
-            f'<div class="category-section">'
-            f'<h3 class="category-title">{escape(category)} '
-            f'<span class="count">({len(cat_tweets)})</span></h3>'
-            f'{cards}</div>'
+        cat_id = category.replace(" ", "").replace("/", "").lower()
+        cat_buttons.append(
+            f'<button class="cat-btn" data-day="{day_id}" data-cat="{cat_id}" '
+            f'onclick="openCat(event, \'{day_id}\', \'{cat_id}\')">'
+            f'{escape(category)} <span class="cat-count">({len(cat_tweets)})</span></button>'
         )
+        for t in cat_tweets:
+            all_cards.append(render_tweet_card(t, day_id, cat_id))
 
-    return "\n".join(sections)
+    buttons_html = "\n".join(cat_buttons)
+    cards_html = "\n".join(all_cards)
+
+    return f"""
+    <div class="cat-filters" id="filters-{day_id}">
+      {buttons_html}
+    </div>
+    <div class="cat-cards" id="cards-{day_id}">
+      {cards_html}
+    </div>"""
 
 
 def generate_html():
@@ -93,7 +107,7 @@ def generate_html():
         return
 
     days = []
-    for jf in json_files[:30]:  # last 30 days max
+    for jf in json_files[:30]:
         with open(jf) as f:
             data = json.load(f)
         days.append(data)
@@ -106,6 +120,7 @@ def generate_html():
         count = day.get("tweet_count", 0)
         active = "active" if i == 0 else ""
         display = "block" if i == 0 else "none"
+        day_id = date_str
 
         try:
             label = datetime.strptime(date_str, "%Y-%m-%d").strftime("%b %d")
@@ -113,13 +128,13 @@ def generate_html():
             label = date_str
 
         tab_buttons.append(
-            f'<button class="tab-btn {active}" onclick="openTab(event, \'day-{date_str}\')">'
+            f'<button class="tab-btn {active}" onclick="openTab(event, \'day-{day_id}\')">'
             f'{label} <span class="badge">{count}</span></button>'
         )
         tab_contents.append(
-            f'<div id="day-{date_str}" class="tab-content" style="display:{display}">'
+            f'<div id="day-{day_id}" class="tab-content" style="display:{display}">'
             f'<h2>{date_str} &mdash; {count} tweets found</h2>'
-            f'{render_day_content(day)}</div>'
+            f'{render_day_content(day, day_id)}</div>'
         )
 
     tabs_html = "\n".join(tab_buttons)
@@ -192,23 +207,38 @@ def generate_html():
   }}
   .tab-content h2 {{
     color: #c9d1d9;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     font-size: 1.2rem;
   }}
-  .category-section {{
-    margin-bottom: 2rem;
+  .cat-filters {{
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
   }}
-  .category-title {{
-    color: #58a6ff;
-    font-size: 1.1rem;
-    margin-bottom: 0.8rem;
-    padding-bottom: 0.4rem;
-    border-bottom: 1px solid #21262d;
-  }}
-  .count {{
+  .cat-btn {{
+    background: #21262d;
+    border: 1px solid #30363d;
     color: #8b949e;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+  }}
+  .cat-btn:hover {{
+    color: #c9d1d9;
+    border-color: #58a6ff;
+  }}
+  .cat-btn.active {{
+    background: #58a6ff;
+    color: #0d1117;
+    border-color: #58a6ff;
+    font-weight: 600;
+  }}
+  .cat-count {{
     font-weight: normal;
-    font-size: 0.9rem;
+    opacity: 0.8;
   }}
   .tweet-card {{
     background: #161b22;
@@ -220,6 +250,9 @@ def generate_html():
   }}
   .tweet-card:hover {{
     border-color: #58a6ff;
+  }}
+  .tweet-card.hidden {{
+    display: none;
   }}
   .tweet-header {{
     display: flex;
@@ -278,6 +311,8 @@ def generate_html():
     .header {{ padding: 1rem; }}
     .tabs {{ padding: 0.5rem 1rem 0; }}
     .tab-content {{ padding: 1rem; }}
+    .cat-filters {{ gap: 0.3rem; }}
+    .cat-btn {{ padding: 0.4rem 0.7rem; font-size: 0.8rem; }}
   }}
 </style>
 </head>
@@ -296,6 +331,33 @@ def generate_html():
       document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
       document.getElementById(tabId).style.display = 'block';
       evt.currentTarget.classList.add('active');
+    }}
+
+    function openCat(evt, dayId, catId) {{
+      const btn = evt.currentTarget;
+      const isActive = btn.classList.contains('active');
+
+      // Toggle: if clicking active button, deselect and show all
+      const filters = document.getElementById('filters-' + dayId);
+      filters.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+
+      const cards = document.getElementById('cards-' + dayId);
+      const allCards = cards.querySelectorAll('.tweet-card');
+
+      if (isActive) {{
+        // Show all
+        allCards.forEach(c => c.classList.remove('hidden'));
+      }} else {{
+        // Filter to selected category
+        btn.classList.add('active');
+        allCards.forEach(c => {{
+          if (c.dataset.cat === catId) {{
+            c.classList.remove('hidden');
+          }} else {{
+            c.classList.add('hidden');
+          }}
+        }});
+      }}
     }}
   </script>
 </body>

@@ -65,23 +65,38 @@
   }
   .tab-content h2 {
     color: #c9d1d9;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     font-size: 1.2rem;
   }
-  .category-section {
-    margin-bottom: 2rem;
+  .cat-filters {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
   }
-  .category-title {
-    color: #58a6ff;
-    font-size: 1.1rem;
-    margin-bottom: 0.8rem;
-    padding-bottom: 0.4rem;
-    border-bottom: 1px solid #21262d;
-  }
-  .count {
+  .cat-btn {
+    background: #21262d;
+    border: 1px solid #30363d;
     color: #8b949e;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+  }
+  .cat-btn:hover {
+    color: #c9d1d9;
+    border-color: #58a6ff;
+  }
+  .cat-btn.active {
+    background: #58a6ff;
+    color: #0d1117;
+    border-color: #58a6ff;
+    font-weight: 600;
+  }
+  .cat-count {
     font-weight: normal;
-    font-size: 0.9rem;
+    opacity: 0.8;
   }
   .tweet-card {
     background: #161b22;
@@ -93,6 +108,9 @@
   }
   .tweet-card:hover {
     border-color: #58a6ff;
+  }
+  .tweet-card.hidden {
+    display: none;
   }
   .tweet-header {
     display: flex;
@@ -151,6 +169,8 @@
     .header { padding: 1rem; }
     .tabs { padding: 0.5rem 1rem 0; }
     .tab-content { padding: 1rem; }
+    .cat-filters { gap: 0.3rem; }
+    .cat-btn { padding: 0.4rem 0.7rem; font-size: 0.8rem; }
   }
 </style>
 </head>
@@ -162,8 +182,17 @@
   <div class="tabs">
     <button class="tab-btn active" onclick="openTab(event, 'day-2026-03-21')">Mar 21 <span class="badge">114</span></button>
   </div>
-  <div id="day-2026-03-21" class="tab-content" style="display:block"><h2>2026-03-21 &mdash; 114 tweets found</h2><div class="category-section"><h3 class="category-title">Grants <span class="count">(41)</span></h3>
-    <div class="tweet-card">
+  <div id="day-2026-03-21" class="tab-content" style="display:block"><h2>2026-03-21 &mdash; 114 tweets found</h2>
+    <div class="cat-filters" id="filters-2026-03-21">
+      <button class="cat-btn" data-day="2026-03-21" data-cat="grants" onclick="openCat(event, '2026-03-21', 'grants')">Grants <span class="cat-count">(41)</span></button>
+<button class="cat-btn" data-day="2026-03-21" data-cat="hackathons" onclick="openCat(event, '2026-03-21', 'hackathons')">Hackathons <span class="cat-count">(11)</span></button>
+<button class="cat-btn" data-day="2026-03-21" data-cat="bounties" onclick="openCat(event, '2026-03-21', 'bounties')">Bounties <span class="cat-count">(22)</span></button>
+<button class="cat-btn" data-day="2026-03-21" data-cat="paidoss" onclick="openCat(event, '2026-03-21', 'paidoss')">Paid OSS <span class="cat-count">(14)</span></button>
+<button class="cat-btn" data-day="2026-03-21" data-cat="vcfunding" onclick="openCat(event, '2026-03-21', 'vcfunding')">VC / Funding <span class="cat-count">(26)</span></button>
+    </div>
+    <div class="cat-cards" id="cards-2026-03-21">
+      
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1392683005785763841/CAMp4K_g_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -182,7 +211,7 @@
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1956001347385405446/p6hDGblw_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -212,7 +241,7 @@
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1977831589829644289/9v9jJ1Z3_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -235,7 +264,7 @@ lazai.network/blog/lazai-lau
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2032923605965627392/BBSTrnGi_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -258,7 +287,7 @@ Through hackathons, bounties, grants, and open-source contributions, our communi
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1596145835351351296/dN7Dp_Uj_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -279,7 +308,7 @@ STON.fi Grant Program — we support builders with grants of up to $10,000:</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2029943073220993024/hXUwBWJV_normal.png" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -304,7 +333,7 @@ Honestly, just people who are ready to ship and commit to build in the open with
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2029482826048110592/_4Ks8xou_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -329,7 +358,7 @@ This is</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1821619812893614080/UGPL1XqJ_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -348,7 +377,7 @@ btrust.tech/grants/develop
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1894661983686778880/JeREUz2m_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -371,7 +400,7 @@ Apply here </p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2029943073220993024/hXUwBWJV_normal.png" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -400,7 +429,7 @@ follow
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1899768193658314752/l1EL_dPB_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -427,7 +456,7 @@ Mar 15 – Apr 15
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2027281218035982336/9ctS9MOa_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -455,7 +484,7 @@ Mar 15 – Apr 15
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1980270326152916992/qq1CSYrp_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -478,7 +507,7 @@ We building folks
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1953344848611688448/qZgue4Ri_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -499,7 +528,7 @@ A bug bounty platform needs skilled devs → how do they filter without LinkedIn
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2029395075382525952/gGBLqBAP_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -523,7 +552,7 @@ Sending him the fees using
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1862404452017213440/odocJ_xJ_normal.png" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -561,7 +590,7 @@ open.substack.com/pub/cornarolab
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2030447585270386688/P0kUj_Zk_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -582,7 +611,7 @@ open.substack.com/pub/cornarolab
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1969587289262063616/IfG1w98Z_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -601,7 +630,7 @@ Book your consultation call with me today to get started :</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1980270326152916992/qq1CSYrp_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -632,7 +661,7 @@ youtube.com/shorts/vSvZqwV
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2019513990347456512/ov0onb0Q_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -653,7 +682,7 @@ Monetization via ads and sponsorship.</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1632806625378701312/0s3dRz7x_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -670,7 +699,7 @@ Monetization via ads and sponsorship.</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2026628279642501122/rvbSWeER_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -687,7 +716,7 @@ Monetization via ads and sponsorship.</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1771215469208535040/UPGK1nT4_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -713,7 +742,7 @@ yubawater.org/160/Work-for-Y
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1981106774947020800/35rv-K7E_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -731,7 +760,7 @@ Purdue is pleased to announce that D2S has been accepted into the Amazon Web Ser
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1577412728372838404/ZvrERijh_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -750,7 +779,7 @@ Purdue is pleased to announce that D2S has been accepted into the Amazon Web Ser
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1253670877000085504/xjeRf1Ke_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -770,7 +799,7 @@ lombiq.com/open-source. #Sponsorship</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2030447585270386688/P0kUj_Zk_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -792,7 +821,7 @@ github.com/alexstyl</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1253670877000085504/xjeRf1Ke_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -813,7 +842,7 @@ lombiq.com/open-source. #Sponsorship</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1930177307668267008/W8eYYD3S_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -834,7 +863,7 @@ lombiq.com/open-source. #Sponsorship</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2023899165231591424/aYRvrd2y_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -858,7 +887,7 @@ docs.opinion.trade/developer-guid
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1869282399034470400/WrxxT0B4_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -886,7 +915,7 @@ Apply now.
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1954231657315155968/t90xaZTH_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -906,7 +935,7 @@ Startup911 helps founders discover and apply to grants, fellowships, and funding
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2013194671258738688/bRqjXIEt_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -923,7 +952,7 @@ Startup911 helps founders discover and apply to grants, fellowships, and funding
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1958016273176227844/vWOF_T3a_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -942,7 +971,7 @@ Startup911 helps founders discover and apply to grants, fellowships, and funding
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2011784710276427776/h7Qd8zso_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -961,7 +990,7 @@ Startup911 helps founders discover and apply to grants, fellowships, and funding
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1809952137792598016/yr_jJ4C3_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -978,7 +1007,7 @@ Startup911 helps founders discover and apply to grants, fellowships, and funding
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2022607932039532546/-NCIVeis_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -995,7 +1024,7 @@ Startup911 helps founders discover and apply to grants, fellowships, and funding
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2031030199668862976/PbK3jA6X_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1013,7 +1042,7 @@ Let’s build a sustainable open source future together! </p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1873388728665976832/PliPWdOK_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1034,7 +1063,7 @@ Let’s build a sustainable open source future together! </p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2022264036620906496/uicN2rH5_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1051,7 +1080,7 @@ Let’s build a sustainable open source future together! </p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="grants">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1643518076384600068/oSDVJPvc_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1066,9 +1095,9 @@ Let’s build a sustainable open source future together! </p>
         <span>0 RTs</span>
         <a href="https://x.com/moe_nick/status/2032587856976240979" target="_blank" rel="noopener">View on X</a>
       </div>
-    </div></div>
-<div class="category-section"><h3 class="category-title">Hackathons <span class="count">(11)</span></h3>
-    <div class="tweet-card">
+    </div>
+
+    <div class="tweet-card" data-day="2026-03-21" data-cat="hackathons">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1831348758753206272/y2Z0hMrl_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1089,7 +1118,7 @@ For hackathon information ↓</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="hackathons">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1676504167488303109/96PPJPS__normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1114,7 +1143,7 @@ Watch top teams pitch Solana-powered ideas refined by leading mentors!
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="hackathons">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1953692014911897600/jKYCpB8M_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1138,7 +1167,7 @@ Walnut</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="hackathons">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1791039148079329280/t_2GHToT_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1165,7 +1194,7 @@ Get ready for a day of coding, creativity, and innovation at
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="hackathons">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2010878151690227712/aRV2PpPZ_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1186,7 +1215,7 @@ Patience</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="hackathons">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1887444965137260545/43_pgd0d_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1215,7 +1244,7 @@ Deadline: April 15
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="hackathons">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1992940941372465152/NCj0PkFS_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1238,7 +1267,7 @@ lablab.ai/ai-hackathons/
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="hackathons">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1912031000076431360/wfVO26vV_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1263,7 +1292,7 @@ hubs.ly/Q04697q90
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="hackathons">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1949248649461985280/nt8j3o54_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1285,7 +1314,7 @@ tinyurl.com/BNI-Build4Today
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="hackathons">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1890439905559433216/4vTHT7P3_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1307,7 +1336,7 @@ ow.ly/1oFu50YmsLV</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="hackathons">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/676027623500197893/CdUPOYko_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1332,9 +1361,9 @@ Please share to reach students
         <span>0 RTs</span>
         <a href="https://x.com/Gr8GauravBajaj/status/2031962719075869080" target="_blank" rel="noopener">View on X</a>
       </div>
-    </div></div>
-<div class="category-section"><h3 class="category-title">Bounties <span class="count">(22)</span></h3>
-    <div class="tweet-card">
+    </div>
+
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1882013974327115776/zYEHKqnG_normal.png" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1365,7 +1394,7 @@ vwad.owasp.org/app/#burp-boun
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1864776186490163201/eGvsXUVa_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1388,7 +1417,7 @@ cURL bug bounty:</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1983552833073950720/xHBzQPNE_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1419,7 +1448,7 @@ Coming in the next 2 weeks:
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1983552833073950720/xHBzQPNE_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1440,7 +1469,7 @@ Read more in our blog post:</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1895590033005899776/yZ7ii-4l_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1457,7 +1486,7 @@ Read more in our blog post:</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2018168668606058496/GZQ9fczb_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1478,7 +1507,7 @@ Back link below </p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1844133591237738496/AlC_emhT_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1501,7 +1530,7 @@ Results feed into how 350K gets allocated to public</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2034278050775568385/oDdSgurY_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1530,7 +1559,7 @@ x.com/i/status/20313
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2005547775300120576/P9wcgU2g_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1551,7 +1580,7 @@ any data source. any chain. first 3 verified endpoints get 5000 $DEXTER each.
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2030696574616043520/QK1WT3Io_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1569,7 +1598,7 @@ bugtraceai.com</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1605173259732803584/YvDtVFpX_normal.png" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1590,7 +1619,7 @@ Follow along:</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1923240390355820544/mdcCI02m_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1607,7 +1636,7 @@ Follow along:</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2033630238094114816/k1s0hnKt_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1626,7 +1655,7 @@ There used to be a bounty program under Twitter but I’m not sure if that still
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1969767425840193536/rjnel1tT_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1645,7 +1674,7 @@ There used to be a bounty program under Twitter but I’m not sure if that still
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1969742746744229888/X2YKHf4__normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1664,7 +1693,7 @@ There used to be a bounty program under Twitter but I’m not sure if that still
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2023281796620693504/bBEP_RIa_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1684,7 +1713,7 @@ Educational Purposes!</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/468482803613855744/FZUpywgc_normal.jpeg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1703,7 +1732,7 @@ github.com/PatrikFehrenba
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1837735929856860160/zB_6s6Ti_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1722,7 +1751,7 @@ simonwillison.net/2026/Mar/14/ja
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2034475070622466048/RsPGn_5b_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1739,7 +1768,7 @@ simonwillison.net/2026/Mar/14/ja
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1914778194030551040/tjKzKvyp_normal.png" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1761,7 +1790,7 @@ How to have fixed in alignment from 2022:
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1311323823657033733/e4WT360Z_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1780,7 +1809,7 @@ How to have fixed in alignment from 2022:
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="bounties">
       <div class="tweet-header">
         <img src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1797,9 +1826,9 @@ How to have fixed in alignment from 2022:
         <span>0 RTs</span>
         <a href="https://x.com/gurpals39816066/status/2022900228014379487" target="_blank" rel="noopener">View on X</a>
       </div>
-    </div></div>
-<div class="category-section"><h3 class="category-title">Paid OSS <span class="count">(14)</span></h3>
-    <div class="tweet-card">
+    </div>
+
+    <div class="tweet-card" data-day="2026-03-21" data-cat="paidoss">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1675505386026070024/ux_be-bz_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1816,7 +1845,7 @@ How to have fixed in alignment from 2022:
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="paidoss">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1675505386026070024/ux_be-bz_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1833,7 +1862,7 @@ How to have fixed in alignment from 2022:
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="paidoss">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1933526695514157063/PnjcuLi6_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1852,7 +1881,7 @@ Why should a &quot;COO&quot; of a 4 dev open source team be paid $250k per year?
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="paidoss">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2033794936093741057/3ZhDBjW1_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1873,7 +1902,7 @@ If contributor payments become instant, trustless, and quality-gated, it can cha
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="paidoss">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1933526695514157063/PnjcuLi6_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1892,7 +1921,7 @@ Why should a &quot;COO&quot; of a 4 dev open source team be paid $250k per year?
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="paidoss">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1976492105381158912/p9k3Pc4w_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1910,7 +1939,7 @@ cardanoupdates.com, behind IO with 300 devs and CF with 60 devs. We have 1 FT de
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="paidoss">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1976492105381158912/p9k3Pc4w_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1927,7 +1956,7 @@ cardanoupdates.com, behind IO with 300 devs and CF with 60 devs. We have 1 FT de
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="paidoss">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2015920013967024129/v5esRPkb_normal.png" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1948,7 +1977,7 @@ Best referrals are people who will ACTUALLY use
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="paidoss">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1747580602079924224/VaWtt_8T_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1965,7 +1994,7 @@ Best referrals are people who will ACTUALLY use
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="paidoss">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1141238022/fossasia-cubelogo_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -1983,7 +2012,7 @@ GSoC is a global program by Google that introduces students and new contributors
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="paidoss">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2026394720591548416/IgrMi5rP_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2000,7 +2029,7 @@ GSoC is a global program by Google that introduces students and new contributors
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="paidoss">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1898991231817904129/tev_j6RL_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2017,7 +2046,7 @@ GSoC is a global program by Google that introduces students and new contributors
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="paidoss">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2025843261563187201/FTwy2rey_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2036,7 +2065,7 @@ Contributors worked for free. He got paid.</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="paidoss">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1877354903305396224/pMPnRbCP_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2057,9 +2086,9 @@ startupmapafrica.com/funding/launch
         <span>0 RTs</span>
         <a href="https://x.com/thodekaido/status/1980176031412523202" target="_blank" rel="noopener">View on X</a>
       </div>
-    </div></div>
-<div class="category-section"><h3 class="category-title">VC / Funding <span class="count">(26)</span></h3>
-    <div class="tweet-card">
+    </div>
+
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1945821231921414144/18bPePoY_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2086,7 +2115,7 @@ startup.google.com/programs/accel
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1848029399540477952/uWDcxZBU_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2112,7 +2141,7 @@ allgood.ventures/apply/</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1931836251553816576/_6Q65Cq9_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2134,7 +2163,7 @@ f6s.com/crypto-tree-vc
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1866791216907481088/RKT4_Rd9_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2164,7 +2193,7 @@ bit.ly/USLCohort6CitiX</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1775168270254944256/KcqfgPWp_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2187,7 +2216,7 @@ Stay tuned.
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2017922233054670848/l3h-D7o4_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2218,7 +2247,7 @@ bit.ly/USLCohort6Chan
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/755129822720954368/APpeI4q3_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2235,7 +2264,7 @@ bit.ly/USLCohort6Chan
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1914940092193419265/iSt4o5yg_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2260,7 +2289,7 @@ NextUnicorn.Fund/r/Zdk
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2022605045519519748/_3hkNneL_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2284,7 +2313,7 @@ abstechconnect.com/scholarships/w
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1914940092193419265/iSt4o5yg_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2306,7 +2335,7 @@ nextunicorn.fund/event
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1839340075001561088/hHCUCQU7_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2327,7 +2356,7 @@ lvlup.vc/apply/funding-
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1600814316919332864/hJdcIlRY_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2350,7 +2379,7 @@ Questions?  hello@madica.com</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1978060897412169728/qr-fUfGr_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2374,7 +2403,7 @@ intertradeireland.com/entrepreneursh
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/777553614986412032/QkGBYQ2K_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2392,7 +2421,7 @@ cleantechopen.org</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1845365453813678089/9ZOiTnue_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2413,7 +2442,7 @@ thegarage.sa/garage-programs</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1492141214258417673/hzdgr7o9_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2440,7 +2469,7 @@ startup.ovhcloud.com</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1997410181718708225/sgkbVr_H_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2465,7 +2494,7 @@ Founders Lab: For</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1695082246087049217/udXOOAhr_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2482,7 +2511,7 @@ Founders Lab: For</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1867132621102129152/HUfh1qgj_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2505,7 +2534,7 @@ More info &amp;amp; apply here </p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/998603807863881728/A6mmRJ2W_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2522,7 +2551,7 @@ More info &amp;amp; apply here </p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1893219113717342208/Vgg2hEPa_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2544,7 +2573,7 @@ fin.ai/startup-pack –</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1559775404365385728/kIuNoqDs_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2562,7 +2591,7 @@ Earthx.pulse.ly/1xdhldhcsd</p>
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2012066832539160576/3yunfASN_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2583,7 +2612,7 @@ techmoonshot.com/2025/11/03/app
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1877354903305396224/pMPnRbCP_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2606,7 +2635,7 @@ startupmapafrica.com/funding/t-lcom
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/1929608975365844993/gv4x-05l_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2629,7 +2658,7 @@ docs.google.com/forms/d/e/1FAI
       </div>
     </div>
 
-    <div class="tweet-card">
+    <div class="tweet-card" data-day="2026-03-21" data-cat="vcfunding">
       <div class="tweet-header">
         <img src="https://pbs.twimg.com/profile_images/2025864383662878720/uHVolDaZ_normal.jpg" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -2652,13 +2681,41 @@ opportunitiesgateway.org/applications-a
         <span>0 RTs</span>
         <a href="https://x.com/OGateway56178/status/2020112045132087773" target="_blank" rel="noopener">View on X</a>
       </div>
-    </div></div></div>
+    </div>
+    </div></div>
   <script>
     function openTab(evt, tabId) {
       document.querySelectorAll('.tab-content').forEach(el => el.style.display = 'none');
       document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
       document.getElementById(tabId).style.display = 'block';
       evt.currentTarget.classList.add('active');
+    }
+
+    function openCat(evt, dayId, catId) {
+      const btn = evt.currentTarget;
+      const isActive = btn.classList.contains('active');
+
+      // Toggle: if clicking active button, deselect and show all
+      const filters = document.getElementById('filters-' + dayId);
+      filters.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+
+      const cards = document.getElementById('cards-' + dayId);
+      const allCards = cards.querySelectorAll('.tweet-card');
+
+      if (isActive) {
+        // Show all
+        allCards.forEach(c => c.classList.remove('hidden'));
+      } else {
+        // Filter to selected category
+        btn.classList.add('active');
+        allCards.forEach(c => {
+          if (c.dataset.cat === catId) {
+            c.classList.remove('hidden');
+          } else {
+            c.classList.add('hidden');
+          }
+        });
+      }
     }
   </script>
 </body>
