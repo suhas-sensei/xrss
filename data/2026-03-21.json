@@ -1,5 +1,1716 @@
 {
   "date": "2026-03-21",
-  "tweet_count": 0,
-  "tweets": []
+  "tweet_count": 114,
+  "tweets": [
+    {
+      "id": "2021200095061082243",
+      "text": " Applications Open: \n@GoogleStartups\n Accelerator Africa 2026\n\n3-month, equity-free hybrid program for growth-stage African startups scaling with strong tech needs.\n\n Deadline: 18 March 2026\n\n Apply: \nstartup.google.com/programs/accel\n\u2026",
+      "user": {
+        "name": "All Things Ventures",
+        "screen_name": "all_thingsvc",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1945821231921414144/18bPePoY_normal.jpg"
+      },
+      "created_at": "2026-02-10T12:30:29.000Z",
+      "favorite_count": 484,
+      "retweet_count": 109,
+      "url": "https://x.com/all_thingsvc/status/2021200095061082243",
+      "query": "tech accelerator applications open"
+    },
+    {
+      "id": "2033460347500130663",
+      "text": " Burp Bounty Lab is now officially listed in the \n@owasp\n Vulnerable Web Applications Directory.\n\nOne week after launch. \n\n100+ vulnerable endpoints. Free. Open source.\n\n \nburpbountylab.com\n \nvwad.owasp.org/app/#burp-boun\n\u2026\n\n#BugBounty #OWASP #Pentesting",
+      "user": {
+        "name": "Bounty Security",
+        "screen_name": "BountySecurity",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1882013974327115776/zYEHKqnG_normal.png"
+      },
+      "created_at": "2026-03-16T08:28:21.000Z",
+      "favorite_count": 215,
+      "retweet_count": 42,
+      "url": "https://x.com/BountySecurity/status/2033460347500130663",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2023460268442067303",
+      "text": "Honestly, I'm just happy for \n@steipete\n. It's impossibly difficult to get backing for widely used Open Source software. Devs always take it for granted. Managing software in a foundation certainly has its own challenges. But the *topmost* difficulty is getting contributors paid.",
+      "user": {
+        "name": "Kevin Swiber",
+        "screen_name": "kevinswiber",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1392683005785763841/CAMp4K_g_normal.jpg"
+      },
+      "created_at": "2026-02-16T18:11:36.000Z",
+      "favorite_count": 183,
+      "retweet_count": 1,
+      "url": "https://x.com/kevinswiber/status/2023460268442067303",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2034600225021546685",
+      "text": "30 Web3 grant programs for early-stage builders:\n\n1. Ethereum ESP\n2. Solana Grants\n3. Arbitrum DAO\n4. Starknet Growth\n5. Avalanche infraBUIDL\n6. BNB Builder\n7. Aptos Assembly\n8. Stellar Matching Fund\n9. Chainlink BUILD\n10. Optimism Growth Grants\n11. Filecoin Open\n12. Base Builder",
+      "user": {
+        "name": "Venture Launch",
+        "screen_name": "venture_launch",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1956001347385405446/p6hDGblw_normal.jpg"
+      },
+      "created_at": "2026-03-19T11:57:49.000Z",
+      "favorite_count": 164,
+      "retweet_count": 16,
+      "url": "https://x.com/venture_launch/status/2034600225021546685",
+      "query": "web3 grants open"
+    },
+    {
+      "id": "2003768364414509409",
+      "text": "Building on LazAI Alpha Mainnet? We're backing you.\n\n10,000 $METIS across Ignition Grants (early-stage) and Builder Grants (established projects with 50+ DAU) available.\n\nApply now: \nlazai.network/blog/lazai-lau\n\u2026",
+      "user": {
+        "name": "LazAI Network",
+        "screen_name": "LazAINetwork",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1977831589829644289/9v9jJ1Z3_normal.jpg"
+      },
+      "created_at": "2025-12-24T10:03:00.000Z",
+      "favorite_count": 163,
+      "retweet_count": 86,
+      "url": "https://x.com/LazAINetwork/status/2003768364414509409",
+      "query": "developer grants apply"
+    },
+    {
+      "id": "2031433868264485136",
+      "text": "Lol. 100+ submissions on our latest developer bounty is insane.\n\nWe run this every month, by the way.\n\nIf you\u2019re a developer, there\u2019s no better chain to apply your skills and earn than Solana.\n\nThrough hackathons, bounties, grants, and open-source contributions, our community",
+      "user": {
+        "name": "Dr. Harri",
+        "screen_name": "Harri_obi",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2032923605965627392/BBSTrnGi_normal.jpg"
+      },
+      "created_at": "2026-03-10T18:15:51.000Z",
+      "favorite_count": 116,
+      "retweet_count": 12,
+      "url": "https://x.com/Harri_obi/status/2031433868264485136",
+      "query": "developer grants apply"
+    },
+    {
+      "id": "2033525945751986468",
+      "text": "Open source maintainers built the internet for free.\n\nNow AI companies trained on their code, and vibe coders use their libraries without reading a single doc, filing a single bug, or donating a single dollar.\n\nTailwind docs traffic: -40%\nStack Overflow: -25%\ncURL bug bounty:",
+      "user": {
+        "name": "Ayush Agarwal",
+        "screen_name": "ayushagarwal",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1864776186490163201/eGvsXUVa_normal.jpg"
+      },
+      "created_at": "2026-03-16T12:49:01.000Z",
+      "favorite_count": 95,
+      "retweet_count": 2,
+      "url": "https://x.com/ayushagarwal/status/2033525945751986468",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2001422588183007624",
+      "text": "8 / 8  Ready to build with \nSTON.fi? Our docs and developer resources are open to all: \ndocs.ston.fi\nHave a DeFi idea that could push TON forward? Apply to the \nSTON.fi Grant Program \u2014 we support builders with grants of up to $10,000:",
+      "user": {
+        "name": "STON.fi",
+        "screen_name": "ston_fi",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1596145835351351296/dN7Dp_Uj_normal.jpg"
+      },
+      "created_at": "2025-12-17T22:41:44.000Z",
+      "favorite_count": 70,
+      "retweet_count": 18,
+      "url": "https://x.com/ston_fi/status/2001422588183007624",
+      "query": "developer grants apply"
+    },
+    {
+      "id": "2033924274700918972",
+      "text": " Roadmap 2026 v2 is live\n\nWe made some changes, based on where we\u2019re actually seeing traction.\n\nQ1 turned out stronger than expected:\n\n\u2022 Synapse Agent Protocol\n\u2022 Developer Bounty Program\n\u2022 Synapse Payments with OOBE Tokens\n\nAll shipped.\n\nComing in the next 2 weeks:\n\n\u2022",
+      "user": {
+        "name": "out of body experience | $OOBE",
+        "screen_name": "OOBEonSol",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1983552833073950720/xHBzQPNE_normal.jpg"
+      },
+      "created_at": "2026-03-17T15:11:50.000Z",
+      "favorite_count": 58,
+      "retweet_count": 32,
+      "url": "https://x.com/OOBEonSol/status/2033924274700918972",
+      "query": "developer bounty program"
+    },
+    {
+      "id": "2031446645637005467",
+      "text": "We've launched the Track 1 of the OOBE Developer Bounty Program, inviting developers to contribute directly to the Synapse Client SDK.\n\nThe goal of this campaign is simple: strengthen the developer stack that powers the ecosystem.\n\nRead more in our blog post:",
+      "user": {
+        "name": "out of body experience | $OOBE",
+        "screen_name": "OOBEonSol",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1983552833073950720/xHBzQPNE_normal.jpg"
+      },
+      "created_at": "2026-03-10T19:06:37.000Z",
+      "favorite_count": 58,
+      "retweet_count": 21,
+      "url": "https://x.com/OOBEonSol/status/2031446645637005467",
+      "query": "developer bounty program"
+    },
+    {
+      "id": "2031446845298229545",
+      "text": "OOBE Developer Bounty Program - Track 1: Improve the Synapse Client SDK",
+      "user": {
+        "name": "SteveTheHead",
+        "screen_name": "SteveTheHead_",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1895590033005899776/yZ7ii-4l_normal.jpg"
+      },
+      "created_at": "2026-03-10T19:07:25.000Z",
+      "favorite_count": 36,
+      "retweet_count": 17,
+      "url": "https://x.com/SteveTheHead_/status/2031446845298229545",
+      "query": "developer bounty program"
+    },
+    {
+      "id": "2028493393517584415",
+      "text": " Announcing our first batch of mini-grants!\n\nWe're pledging millions of $SHIP to those who join us in building the first open guild on \n@Pumpfun\n.\n\nWhat are we looking for?\n\nHonestly, just people who are ready to ship and commit to build in the open with us, we've already",
+      "user": {
+        "name": "Web3 Matters",
+        "screen_name": "Web3_Matters",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2029943073220993024/hXUwBWJV_normal.png"
+      },
+      "created_at": "2026-03-02T15:31:27.000Z",
+      "favorite_count": 34,
+      "retweet_count": 11,
+      "url": "https://x.com/Web3_Matters/status/2028493393517584415",
+      "query": "web3 grants open"
+    },
+    {
+      "id": "2032167005898318191",
+      "text": "Registration for \n@synthesis_md\n is now open, with submissions closing on March 23rd\n\nFor hackathon information \u2193",
+      "user": {
+        "name": "Uniswap Labs",
+        "screen_name": "Uniswap",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1831348758753206272/y2Z0hMrl_normal.jpg"
+      },
+      "created_at": "2026-03-12T18:49:04.000Z",
+      "favorite_count": 33,
+      "retweet_count": 0,
+      "url": "https://x.com/Uniswap/status/2032167005898318191",
+      "query": "hackathon registration open"
+    },
+    {
+      "id": "2032811824551235752",
+      "text": "d.Pro is proud to sponsor \n@openclaw\n \n\nOpenClaw is building a truly open personal AI assistant \u2014 any OS, any platform.\n\nWhat we love most: 100% of sponsorship goes back to the open-source ecosystem \u2014 contributors, bug fixes, and upstream dependencies.\n\nThis is",
+      "user": {
+        "name": "d.Pro",
+        "screen_name": "dProClaw",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2029482826048110592/_4Ks8xou_normal.jpg"
+      },
+      "created_at": "2026-03-14T13:31:21.000Z",
+      "favorite_count": 32,
+      "retweet_count": 7,
+      "url": "https://x.com/dProClaw/status/2032811824551235752",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2029749513980727526",
+      "text": "Did you know that Blink Labs has had a paid open source contributor program for a year? We now have 10 contributors and counting. Our most recent addition joined us by contributing to our projects consistently. Now they're getting a paycheck. No milestones. No reports. Just code.",
+      "user": {
+        "name": "Blink Labs",
+        "screen_name": "blinklabs_io",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1675505386026070024/ux_be-bz_normal.jpg"
+      },
+      "created_at": "2026-03-06T02:42:49.000Z",
+      "favorite_count": 30,
+      "retweet_count": 5,
+      "url": "https://x.com/blinklabs_io/status/2029749513980727526",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2016846214671540617",
+      "text": "Did you know that Blink Labs has had a paid open source contributor program for a year? We now have 10 contributors and counting. Our most recent addition joined us by contributing to our projects.",
+      "user": {
+        "name": "Blink Labs",
+        "screen_name": "blinklabs_io",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1675505386026070024/ux_be-bz_normal.jpg"
+      },
+      "created_at": "2026-01-29T12:09:43.000Z",
+      "favorite_count": 26,
+      "retweet_count": 4,
+      "url": "https://x.com/blinklabs_io/status/2016846214671540617",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2032365912863514867",
+      "text": "Learn more about our developer grant program and apply through our website: \nbtrust.tech/grants/develop\n\u2026",
+      "user": {
+        "name": "Btrust",
+        "screen_name": "btrustteam",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1821619812893614080/UGPL1XqJ_normal.jpg"
+      },
+      "created_at": "2026-03-13T07:59:27.000Z",
+      "favorite_count": 21,
+      "retweet_count": 7,
+      "url": "https://x.com/btrustteam/status/2032365912863514867",
+      "query": "developer grants apply"
+    },
+    {
+      "id": "2026954187745939900",
+      "text": "Up to $340K in prizes + grants  \n\nFounder House applications are still very much open, now with free mentorship guide Web3 builders. \n\nIf you've been confused about GTM, launching, and scaling seamlessly in web3..... then this is your opportunity \n\nApply here ",
+      "user": {
+        "name": "Akahilz Intern (,)",
+        "screen_name": "akahilzintern",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1894661983686778880/JeREUz2m_normal.jpg"
+      },
+      "created_at": "2026-02-26T09:35:12.000Z",
+      "favorite_count": 20,
+      "retweet_count": 2,
+      "url": "https://x.com/akahilzintern/status/2026954187745939900",
+      "query": "web3 grants open"
+    },
+    {
+      "id": "2031283033442234737",
+      "text": "$20,000 prize from Ethereum Foundation on Pond that you cannot miss! Competition is not hard, while courage is rare.\n\nIf you are a developer, come to complete this bounty to prove yourself while contribute to the future of open source ecosystem of Ethereum. \n\nBack link below ",
+      "user": {
+        "name": "dylan (hiring growth)",
+        "screen_name": "ThinksDylan",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2018168668606058496/GZQ9fczb_normal.jpg"
+      },
+      "created_at": "2026-03-10T08:16:29.000Z",
+      "favorite_count": 16,
+      "retweet_count": 1,
+      "url": "https://x.com/ThinksDylan/status/2031283033442234737",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2030823737969541439",
+      "text": "\"Our team includes a part-time documentation engineer and six part-time Paid Open Source Contributors who help maintain and expand the ecosystem.\"\n\nWhy should a \"COO\" of a 4 dev open source team be paid $250k per year? The team needs a part time operations manager at 50k USD max.",
+      "user": {
+        "name": "Jon Kravetz",
+        "screen_name": "CSWAP_Destroy",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1933526695514157063/PnjcuLi6_normal.jpg"
+      },
+      "created_at": "2026-03-09T01:51:24.000Z",
+      "favorite_count": 14,
+      "retweet_count": 0,
+      "url": "https://x.com/CSWAP_Destroy/status/2030823737969541439",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2017164103190790248",
+      "text": "Why the community should know about this now:\n\nThis is still very early stage, around 200 developers so far.\n\nIf contributor payments become instant, trustless, and quality-gated, it can change how open-source and Web3 contributors get paid forever.",
+      "user": {
+        "name": "Shashwat Chauhan",
+        "screen_name": "Shashwat_web3",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2033794936093741057/3ZhDBjW1_normal.jpg"
+      },
+      "created_at": "2026-01-30T09:12:53.000Z",
+      "favorite_count": 14,
+      "retweet_count": 0,
+      "url": "https://x.com/Shashwat_web3/status/2017164103190790248",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2027690625546547310",
+      "text": "Grant applications open Monday.\n\n2 mini-grants for builders\nwho want to build in the ShipYard ecosystem.\n\nif you're building something,\nor want to start.\n\nMonday is your window.\n\nfollow \n@Web3_Matters\n so you don't miss the form.",
+      "user": {
+        "name": "Web3 Matters",
+        "screen_name": "Web3_Matters",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2029943073220993024/hXUwBWJV_normal.png"
+      },
+      "created_at": "2026-02-28T10:21:32.000Z",
+      "favorite_count": 14,
+      "retweet_count": 1,
+      "url": "https://x.com/Web3_Matters/status/2027690625546547310",
+      "query": "web3 grants open"
+    },
+    {
+      "id": "2033528714034565558",
+      "text": "Applications for Web3 X Incubation Batch 07 are open \n\nWe help Web3 founders go from MVP \u2192 Funded Startup\nSelected teams receive:\n Up to $50K investment\n $100K grants\n $500K partner credits\n Demo Day at major Asia crypto event\n\nMar 15 \u2013 Apr 15\n Apply in first comment",
+      "user": {
+        "name": "Web3 X",
+        "screen_name": "W3X_NW",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1899768193658314752/l1EL_dPB_normal.jpg"
+      },
+      "created_at": "2026-03-16T13:00:01.000Z",
+      "favorite_count": 13,
+      "retweet_count": 4,
+      "url": "https://x.com/W3X_NW/status/2033528714034565558",
+      "query": "web3 grants open"
+    },
+    {
+      "id": "2030823949953892650",
+      "text": "\"Our team includes a part-time documentation engineer and six part-time Paid Open Source Contributors who help maintain and expand the ecosystem.\"\n\nWhy should a \"COO\" of a 4 dev open source team be paid $250k per year? The team needs a part time operations manager at 50k USD max.",
+      "user": {
+        "name": "Jon Kravetz",
+        "screen_name": "CSWAP_Destroy",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1933526695514157063/PnjcuLi6_normal.jpg"
+      },
+      "created_at": "2026-03-09T01:52:15.000Z",
+      "favorite_count": 12,
+      "retweet_count": 0,
+      "url": "https://x.com/CSWAP_Destroy/status/2030823949953892650",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2035260664324005948",
+      "text": "Deep Funding's Prediction Market Pond bounty is live.  \n\nThe task is to build models that predict dependency weight and contribution patterns across Ethereum's open source ecosystem.\n\nNo crypto knowledge required. Just ML.  \n\nResults feed into how 350K gets allocated to public",
+      "user": {
+        "name": "Seer",
+        "screen_name": "seer_pm",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1844133591237738496/AlC_emhT_normal.jpg"
+      },
+      "created_at": "2026-03-21T07:42:10.000Z",
+      "favorite_count": 8,
+      "retweet_count": 1,
+      "url": "https://x.com/seer_pm/status/2035260664324005948",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2035216197730652441",
+      "text": "This Sunday in Tokyo\n\nSol Hack3rs Global Hackathon \u2014 audience registration open:\nluma.com/2vvj2ggo?tk=rj\n\u2026\n\nWatch top teams pitch Solana-powered ideas refined by leading mentors!\n@SuperteamJapan\n @sol_hack3rs",
+      "user": {
+        "name": "Far East Blockchain | FEB",
+        "screen_name": "feb_crypto",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1676504167488303109/96PPJPS__normal.jpg"
+      },
+      "created_at": "2026-03-21T04:45:28.000Z",
+      "favorite_count": 7,
+      "retweet_count": 3,
+      "url": "https://x.com/feb_crypto/status/2035216197730652441",
+      "query": "hackathon registration open"
+    },
+    {
+      "id": "2034923433918972112",
+      "text": " REGISTRATION DEADLINE EXTENDED! \nMissed the first deadline? The Agri-Excellence Hackathon 2026 by \n@CDACINDIA\n is now open until April 15, 2026!\n\nStudents & young innovators\u2014use #AI, Electronics & advanced #ICT to solve real-world agri challenges:\nSaffron Improvement\nWalnut",
+      "user": {
+        "name": "C-DAC India",
+        "screen_name": "cdacindia",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1953692014911897600/jKYCpB8M_normal.jpg"
+      },
+      "created_at": "2026-03-20T09:22:08.000Z",
+      "favorite_count": 7,
+      "retweet_count": 3,
+      "url": "https://x.com/cdacindia/status/2034923433918972112",
+      "query": "hackathon registration open"
+    },
+    {
+      "id": "2033857965782954461",
+      "text": " Early-stage founders building financial social enterprises can apply for a FREE 1-year programme by All Good Ventures.\n\nWhat you get:\n NZD $5k\u2013$20k seed funding\n 1:1 mentoring\n Expert &amp; startup support\n Open worldwide\n\n Closes Mar 31   \nallgood.ventures/apply/",
+      "user": {
+        "name": "Menterprise Africa",
+        "screen_name": "menterprise_af",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1848029399540477952/uWDcxZBU_normal.jpg"
+      },
+      "created_at": "2026-03-17T10:48:20.000Z",
+      "favorite_count": 7,
+      "retweet_count": 0,
+      "url": "https://x.com/menterprise_af/status/2033857965782954461",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2001912478775783497",
+      "text": "My goals for 2026\n- get buff\n- repair my skin\n- become a better developer \n- complete my projects \n- pay off all my debt\n- reach a 850 credit score \n- become financially stable \n- attend more dev hackathon\u2019s \n- apply for as many grants as I can \n- build up my followers \n- publish",
+      "user": {
+        "name": "{\u041f\u042fDX}90\u2122",
+        "screen_name": "nerdyx90",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2027281218035982336/9ctS9MOa_normal.jpg"
+      },
+      "created_at": "2025-12-19T07:08:23.000Z",
+      "favorite_count": 6,
+      "retweet_count": 0,
+      "url": "https://x.com/nerdyx90/status/2001912478775783497",
+      "query": "developer grants apply"
+    },
+    {
+      "id": "2031389297962524960",
+      "text": "@POTUS\n #Susiewiles\n@SecWar\nBounty Son \"Audie Murphy\" War Hell \n#BarackObama $1.7 Billion Proable Cause #JohnKerry \n@FoxNews\n release 200 Recording 1061 Affidavits. \n@CIADirector\n@CIA\n Agent\nFailure openSource communication Daughter married\nx.com/i/status/20313\n\u2026",
+      "user": {
+        "name": "Honest Aced Record 42Lie Detector tests",
+        "screen_name": "2024Freee",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2034278050775568385/oDdSgurY_normal.jpg"
+      },
+      "created_at": "2026-03-10T15:18:44.000Z",
+      "favorite_count": 6,
+      "retweet_count": 6,
+      "url": "https://x.com/2024Freee/status/2031389297962524960",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2026959486737342835",
+      "text": "What a text to receive from one of our projects \n\nIf you\u2019re building in web3 and looking to unlock funding via Grants - DMs are open  \n\nWe building folks  \n\n#funding #grants #web3 #crypto #blockchain",
+      "user": {
+        "name": "Mike Graham",
+        "screen_name": "MikegCrypto",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1980270326152916992/qq1CSYrp_normal.jpg"
+      },
+      "created_at": "2026-02-26T09:56:15.000Z",
+      "favorite_count": 6,
+      "retweet_count": 0,
+      "url": "https://x.com/MikegCrypto/status/2026959486737342835",
+      "query": "web3 grants open"
+    },
+    {
+      "id": "2032333660511432734",
+      "text": "The doors are open. \n\n Registration for \ud835\udc07\ud835\udc1a\ud835\udc1c\ud835\udc24\ud835\udc08\ud835\udc27\ud835\udc1d\ud835\udc22\ud835\udc1a \ud835\udc12\ud835\udc29\ud835\udc1a\ud835\udc2b\ud835\udc24-\ud835\udfd0 has officially begun.\n\nGet ready for a day of coding, creativity, and innovation at \n@eit_faridabad\n.\n\n#HackIndia2026 #HackIndia #Spark2 #Innovation #Hackathon #AI #Web3 \n@inform2atul\n @Bikeshsrivastav",
+      "user": {
+        "name": "HackIndia",
+        "screen_name": "HackIndiaXYZ",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1791039148079329280/t_2GHToT_normal.jpg"
+      },
+      "created_at": "2026-03-13T05:51:18.000Z",
+      "favorite_count": 5,
+      "retweet_count": 4,
+      "url": "https://x.com/HackIndiaXYZ/status/2032333660511432734",
+      "query": "hackathon registration open"
+    },
+    {
+      "id": "2023784249166623072",
+      "text": "Not sure where the teams are pulled from. My team ranks third highest development team on \ncardanoupdates.com, behind IO with 300 devs and CF with 60 devs. We have 1 FT dev and a handful of paid open source contributors but deliver hard.",
+      "user": {
+        "name": "musikc",
+        "screen_name": "InASingleWord",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1976492105381158912/p9k3Pc4w_normal.jpg"
+      },
+      "created_at": "2026-02-17T15:38:59.000Z",
+      "favorite_count": 5,
+      "retweet_count": 0,
+      "url": "https://x.com/InASingleWord/status/2023784249166623072",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2025981048471867545",
+      "text": " Funding isn\u2019t just raised \u2014 it\u2019s earned.\nStep forward, pitch your vision, and let the Crypto Tree community decide. \nApply now \u2192 \nf6s.com/crypto-tree-vc\n\u2026\ufffd\n#CryptoTree #CTVC #StartupFunding #Founders #VentureCapital",
+      "user": {
+        "name": "Crypto Tree VC",
+        "screen_name": "cryptotreevc",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1931836251553816576/_6Q65Cq9_normal.jpg"
+      },
+      "created_at": "2026-02-23T17:08:17.000Z",
+      "favorite_count": 5,
+      "retweet_count": 0,
+      "url": "https://x.com/cryptotreevc/status/2025981048471867545",
+      "query": "VC funding founders apply"
+    },
+    {
+      "id": "2024370137072357404",
+      "text": "Think about it:\n\nA DAO wants to hire a Solana developer \u2192 they have to trust a resume\nA grant program wants to fund builders \u2192 how do they verify activity without asking for GitHub?\nA bug bounty platform needs skilled devs \u2192 how do they filter without LinkedIn profiles?",
+      "user": {
+        "name": "Dev",
+        "screen_name": "YunoWiz",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1953344848611688448/qZgue4Ri_normal.jpg"
+      },
+      "created_at": "2026-02-19T06:27:06.000Z",
+      "favorite_count": 5,
+      "retweet_count": 0,
+      "url": "https://x.com/YunoWiz/status/2024370137072357404",
+      "query": "developer bounty program"
+    },
+    {
+      "id": "2034689094869975505",
+      "text": "Analysts still targeting $0.11\u2013$0.12 HBAR by end of March(??). HederaCon in May. Apex hackathon open for registration.\n\nThe dime keeps playing hard to get, but $0.0008 transaction fees, WBTC integration, and a governing council that includes FedEx aren't going anywhere.\n\nPatience",
+      "user": {
+        "name": "In A Maze || inamazenft.com",
+        "screen_name": "InAMazeNFT",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2010878151690227712/aRV2PpPZ_normal.jpg"
+      },
+      "created_at": "2026-03-19T17:50:57.000Z",
+      "favorite_count": 4,
+      "retweet_count": 0,
+      "url": "https://x.com/InAMazeNFT/status/2034689094869975505",
+      "query": "hackathon registration open"
+    },
+    {
+      "id": "2035239572292939805",
+      "text": "open challenge: build a working x402 API this weekend and list it on dexter marketplace by monday.\n\nany data source. any chain. first 3 verified endpoints get 5000 $DEXTER each.\n\n3 bounty slots still open from last week. nobody claimed them yet. free money.",
+      "user": {
+        "name": "Dexter Agent",
+        "screen_name": "dexteraiagent",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2005547775300120576/P9wcgU2g_normal.jpg"
+      },
+      "created_at": "2026-03-21T06:18:21.000Z",
+      "favorite_count": 4,
+      "retweet_count": 0,
+      "url": "https://x.com/dexteraiagent/status/2035239572292939805",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2019062614622417389",
+      "text": "Applications are OPEN for Cohort 6 of the \n@UNICEFStartups\n Lab, a 6-month accelerator for tech-driven solutions advancing the #SDGs for children & youth. \n\nLed by \n@UNICEFGhana\n, supported by \n@koicagh\n, and implemented by \n@MESTAfrica\n.\n\nApply by Feb 20, 2026: \nbit.ly/USLCohort6CitiX",
+      "user": {
+        "name": "CITI FM 97.3",
+        "screen_name": "Citi973",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1866791216907481088/RKT4_Rd9_normal.jpg"
+      },
+      "created_at": "2026-02-04T14:56:54.000Z",
+      "favorite_count": 4,
+      "retweet_count": 1,
+      "url": "https://x.com/Citi973/status/2019062614622417389",
+      "query": "tech accelerator applications open"
+    },
+    {
+      "id": "2033417585329623419",
+      "text": "Cracked dev with over 1,795 GitHub contributions \nin the last year.\n\nHe is looking for funding so he can quit his job and make his AI assistant completely open source.  \n\nSending him the fees using \n@Pumpfun\n\u2019s GitHub Sponsorship feature.",
+      "user": {
+        "name": "G_oon",
+        "screen_name": "itraC_",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2029395075382525952/gGBLqBAP_normal.jpg"
+      },
+      "created_at": "2026-03-16T05:38:26.000Z",
+      "favorite_count": 4,
+      "retweet_count": 0,
+      "url": "https://x.com/itraC_/status/2033417585329623419",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2031319098278425014",
+      "text": "HashKey Chain Horizon Hackathon is now officially open!\n\nThe registration portal is live and open to all participants.\n\nJoin us and start building on #HashKeyChain.\n\nRegister here: \ndorahacks.io/hackathon/2045\n\u2026\n\nDeadline: April 15\n\n#HashKeyChain #DeFi #Hackathon #AI",
+      "user": {
+        "name": "HashFans",
+        "screen_name": "HashKeyfans",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1887444965137260545/43_pgd0d_normal.jpg"
+      },
+      "created_at": "2026-03-10T10:39:47.000Z",
+      "favorite_count": 3,
+      "retweet_count": 0,
+      "url": "https://x.com/HashKeyfans/status/2031319098278425014",
+      "query": "hackathon registration open"
+    },
+    {
+      "id": "2032466476859339187",
+      "text": "The arena is now open.\nMay 13 - 20, 2026\nOnline build + live finale at Fiera Rho on May 19-20.\n\nRegistration \u2192 \nlablab.ai/ai-hackathons/\n\u2026.",
+      "user": {
+        "name": "lablab.ai",
+        "screen_name": "lablabai",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1992940941372465152/NCj0PkFS_normal.jpg"
+      },
+      "created_at": "2026-03-13T14:39:04.000Z",
+      "favorite_count": 3,
+      "retweet_count": 0,
+      "url": "https://x.com/lablabai/status/2032466476859339187",
+      "query": "hackathon registration open"
+    },
+    {
+      "id": "2033134986270748718",
+      "text": "Discover BugTraceAI, the open-source, deterministic AI platform built for bug bounty hunters and pentesters. How could such precision improve your workflow? Share your thoughts! Link to website \nbugtraceai.com",
+      "user": {
+        "name": "Albert @YZ9YT",
+        "screen_name": "yz9yt",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2030696574616043520/QK1WT3Io_normal.jpg"
+      },
+      "created_at": "2026-03-15T10:55:29.000Z",
+      "favorite_count": 3,
+      "retweet_count": 0,
+      "url": "https://x.com/yz9yt/status/2033134986270748718",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2027311047707681258",
+      "text": " The 29th edition of CL Web3 Grants is out for all builders navigating funding in 2026 \nopen.substack.com/pub/cornarolab\n\u2026\n\n New opportunities from \n@Stacks\n , \n@Optimism\n, \n@SuiNetwork\n, \n@RGBAssociation\n, \n@SafePal\n x \n@solana\n, \n@ethereumfndn\n Fellowship, \n@CUDOS_\n & more!\n Crypto events - ",
+      "user": {
+        "name": "CL Web3Grants.co EthCC9",
+        "screen_name": "CornaroLabs",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1862404452017213440/odocJ_xJ_normal.png"
+      },
+      "created_at": "2026-02-27T09:13:14.000Z",
+      "favorite_count": 3,
+      "retweet_count": 1,
+      "url": "https://x.com/CornaroLabs/status/2027311047707681258",
+      "query": "web3 grants open"
+    },
+    {
+      "id": "2032066899496849812",
+      "text": "Tick Tock!\n\nOnly 5 days until applications open for the Women in Tech Accelerator, Kenya.\n\nStay tuned.\n\n#StanChartFoundation #InspireImpact #WomenInTech",
+      "user": {
+        "name": "@iBizAfrica",
+        "screen_name": "iBizAfrica",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1775168270254944256/KcqfgPWp_normal.jpg"
+      },
+      "created_at": "2026-03-12T12:11:17.000Z",
+      "favorite_count": 3,
+      "retweet_count": 1,
+      "url": "https://x.com/iBizAfrica/status/2032066899496849812",
+      "query": "tech accelerator applications open"
+    },
+    {
+      "id": "2030807215930499227",
+      "text": "Hey \n@J3rryH0well\n if you\u2019re not familiar with Pumpfun\u2019s GitHub Sponsorship feature, it\u2019s basically decentralized grassroots funding.      \n\n Communities can redirect trading fees directly to a developer\u2019s GitHub to support their open-source work.",
+      "user": {
+        "name": "Klea",
+        "screen_name": "real_klea",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2030447585270386688/P0kUj_Zk_normal.jpg"
+      },
+      "created_at": "2026-03-09T00:45:45.000Z",
+      "favorite_count": 3,
+      "retweet_count": 0,
+      "url": "https://x.com/real_klea/status/2030807215930499227",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2033305982659621278",
+      "text": "Entrepreneurs & aspiring entrepreneurs \u2014 I am a brand designer / business developer . I can help you design your brand, build your business systems, apply for grants & business funding .\n\nBook your consultation call with me today to get started :",
+      "user": {
+        "name": "Folisade Garden",
+        "screen_name": "folisadegarden",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1969587289262063616/IfG1w98Z_normal.jpg"
+      },
+      "created_at": "2026-03-15T22:14:57.000Z",
+      "favorite_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/folisadegarden/status/2033305982659621278",
+      "query": "developer grants apply"
+    },
+    {
+      "id": "2032044908341756369",
+      "text": "We did not pay ourselves the first years, then last year we decided we'd make the same as our paid open source contributors. Runway was more important to ensure we'd be around for the long haul, paying our team was most important. When times are tough, I don't get paid, they do.",
+      "user": {
+        "name": "musikc",
+        "screen_name": "InASingleWord",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1976492105381158912/p9k3Pc4w_normal.jpg"
+      },
+      "created_at": "2026-03-12T10:43:54.000Z",
+      "favorite_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/InASingleWord/status/2032044908341756369",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2027879865488458192",
+      "text": "This is strategy, not just sharing a link.\nBest referrals are people who will ACTUALLY use \n@gib_work\n :\n\u2192 Freelance devs looking for crypto-paid work \u2192 Designers in the Web3 space \u2192Open-source contributors on GitHub \u2192 Anyone curious about earning in Solana tokens.",
+      "user": {
+        "name": "Daksh",
+        "screen_name": "Daksh1710407",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2015920013967024129/v5esRPkb_normal.png"
+      },
+      "created_at": "2026-02-28T22:53:30.000Z",
+      "favorite_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/Daksh1710407/status/2027879865488458192",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2028468330571370823",
+      "text": "Grant wins come from narrative fit, not mass blasts \n\nPowerful convo with \n@FoundersU1524\n and \n@kraucionisd\n \n\nKeep building folks \n\nFounders- looking to scale in Web3- DMs are open! \nyoutube.com/shorts/vSvZqwV\n\u2026\n\n#grants #foundation #grant #web3",
+      "user": {
+        "name": "Mike Graham",
+        "screen_name": "MikegCrypto",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1980270326152916992/qq1CSYrp_normal.jpg"
+      },
+      "created_at": "2026-03-02T13:51:51.000Z",
+      "favorite_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/MikegCrypto/status/2028468330571370823",
+      "query": "web3 grants open"
+    },
+    {
+      "id": "2019063777400856769",
+      "text": "Applications are OPEN for the \n@UNICEFStartups\n Lab, a 6-month accelerator for tech-driven solutions advancing #SDGs for children & youth. Led by \n@UNICEFGhana\n , supported by \n@koicagh\n, & implemented by \n@MESTAfrica\n.\n\nApply by Feb 20: \nbit.ly/USLCohort6Chan\n\u2026\n\n#ForEveryChild",
+      "user": {
+        "name": "ChannelOne TV",
+        "screen_name": "Channel1TVGHA",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2017922233054670848/l3h-D7o4_normal.jpg"
+      },
+      "created_at": "2026-02-04T15:01:31.000Z",
+      "favorite_count": 2,
+      "retweet_count": 2,
+      "url": "https://x.com/Channel1TVGHA/status/2019063777400856769",
+      "query": "tech accelerator applications open"
+    },
+    {
+      "id": "2031776350499971245",
+      "text": "Applications are open for the 6th cohort of the Standard Chartered Foundation Women in Tech Accelerator by Standard Chartered, Village Capital & Ashesi University\u2019s Ghana Climate Innovation Center.",
+      "user": {
+        "name": "iSpace Foundation",
+        "screen_name": "iSpaceGh",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/755129822720954368/APpeI4q3_normal.jpg"
+      },
+      "created_at": "2026-03-11T16:56:45.000Z",
+      "favorite_count": 2,
+      "retweet_count": 1,
+      "url": "https://x.com/iSpaceGh/status/2031776350499971245",
+      "query": "tech accelerator applications open"
+    },
+    {
+      "id": "2034384451963166979",
+      "text": "Thanks so much! Appreciate this. \n\nPlanning to keep it open source. \n\nMonetization via ads and sponsorship.",
+      "user": {
+        "name": "FounderEric",
+        "screen_name": "FounderEric",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2019513990347456512/ov0onb0Q_normal.jpg"
+      },
+      "created_at": "2026-03-18T21:40:25.000Z",
+      "favorite_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/FounderEric/status/2034384451963166979",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2034319791020753137",
+      "text": "Yes, and like I said, they have no influence on our roadmap. Pantheon has also been a previous sponsor, and it'd be nice if other hosting companies would sponsor Roots. All of that sponsorship money has been long spent on our open source work to date. I have over $7k worth of",
+      "user": {
+        "name": "Ben Word",
+        "screen_name": "retlehs",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1632806625378701312/0s3dRz7x_normal.jpg"
+      },
+      "created_at": "2026-03-18T17:23:28.000Z",
+      "favorite_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/retlehs/status/2034319791020753137",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2033352079075631517",
+      "text": "Big win for the open-source AI community! Tencent's sponsorship signals growing recognition that community-driven development + enterprise support = sustainable ecosystem. Looking forward to seeing how this collaboration accelerates innovation. ",
+      "user": {
+        "name": "Cool\u5927\u897f\u513f",
+        "screen_name": "maodali0306",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2026628279642501122/rvbSWeER_normal.jpg"
+      },
+      "created_at": "2026-03-16T01:18:08.000Z",
+      "favorite_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/maodali0306/status/2033352079075631517",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "1998433316861784563",
+      "text": "Work for Yuba Water!\n\nInterested in joining the Yuba Water team?  Open positions are posted below:\n\n- Application Developer\n- Grants Program Manager\n\nLearn more & apply at \nyubawater.org/160/Work-for-Y\n\u2026",
+      "user": {
+        "name": "Supervisor Bradford",
+        "screen_name": "YubaSupBradford",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1771215469208535040/UPGK1nT4_normal.jpg"
+      },
+      "created_at": "2025-12-09T16:43:26.000Z",
+      "favorite_count": 1,
+      "retweet_count": 1,
+      "url": "https://x.com/YubaSupBradford/status/1998433316861784563",
+      "query": "developer grants apply"
+    },
+    {
+      "id": "2033509008762712528",
+      "text": "8/ BotDAO is being built on \n@Mantle_Official\n for the Mantle Squad Bounty. 6 agents. Open-source operations. Everything tracked on GitHub. We're not pitching an idea. We're shipping a workflow. \n\nFollow along:",
+      "user": {
+        "name": "B\u00d87DAO",
+        "screen_name": "BO7DAO",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1605173259732803584/YvDtVFpX_normal.png"
+      },
+      "created_at": "2026-03-16T11:41:43.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/BO7DAO/status/2033509008762712528",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2031390044645474393",
+      "text": "95% of AI bug reports were garbage so cURL killed its bounty. Ghostty banned AI code. Vibe coders take from open source but never contribute back. If everyone just prompts, who maintains it?",
+      "user": {
+        "name": "Nikhil Sharma",
+        "screen_name": "ImNikhil117",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1923240390355820544/mdcCI02m_normal.jpg"
+      },
+      "created_at": "2026-03-10T15:21:42.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/ImNikhil117/status/2031390044645474393",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2032008201151885461",
+      "text": "Are you an IOG employee? Are you paid for your open-source work? Most contributors aren\u2019t. That\u2019s the difference.",
+      "user": {
+        "name": "Karsten Siebert",
+        "screen_name": "KubanDigital",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1747580602079924224/VaWtt_8T_normal.jpg"
+      },
+      "created_at": "2026-03-12T08:18:02.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/KubanDigital/status/2032008201151885461",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2018597016637747211",
+      "text": "Meet the Google Summer of Code (GSoC) team at FOSSASIA Summit.\nGSoC is a global program by Google that introduces students and new contributors to open source through paid, mentored projects.",
+      "user": {
+        "name": "FOSSASIA",
+        "screen_name": "fossasia",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1141238022/fossasia-cubelogo_normal.jpg"
+      },
+      "created_at": "2026-02-03T08:06:47.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/fossasia/status/2018597016637747211",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2033827356914184663",
+      "text": "Every big startup begins with one believer. \nWe backed \n@codingal\n because the mission is clear: empower students with tech skills for the future.\nNow they\u2019re shaping global education. \n\n Apply: \nNextUnicorn.Fund/r/Zdk\n#Startups #VentureCapital #FutureUnicorns #Edtech #funding",
+      "user": {
+        "name": "NextUnicorn.Fund",
+        "screen_name": "Nextunicornfund",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1914940092193419265/iSt4o5yg_normal.jpg"
+      },
+      "created_at": "2026-03-17T08:46:43.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/Nextunicornfund/status/2033827356914184663",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2031615639056421297",
+      "text": " Don't scroll past this one.\n\nWorld Food Forum Startup Innovation Awards 2026 (With up to $10,...\n Varies |  All Levels |  April 1st, 2026\n\nApply now  \nabstechconnect.com/scholarships/w\n\u2026",
+      "user": {
+        "name": "Sabi Scholar",
+        "screen_name": "abstechcon26800",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2022605045519519748/_3hkNneL_normal.jpg"
+      },
+      "created_at": "2026-03-11T06:18:08.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/abstechcon26800/status/2031615639056421297",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2033248971062489155",
+      "text": "Founders in #Boston #Cambridge #Worcester ready to pitch? Join the Startup Pitch to Investors (Online Edition) and present your startup directly to global investors & operators.\nYour next funding round could start with one pitch.\nApply Now: \nnextunicorn.fund/event\n\n#Startups #VC",
+      "user": {
+        "name": "NextUnicorn.Fund",
+        "screen_name": "Nextunicornfund",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1914940092193419265/iSt4o5yg_normal.jpg"
+      },
+      "created_at": "2026-03-15T18:28:25.000Z",
+      "favorite_count": 1,
+      "retweet_count": 1,
+      "url": "https://x.com/Nextunicornfund/status/2033248971062489155",
+      "query": "VC funding founders apply"
+    },
+    {
+      "id": "1978891267816751420",
+      "text": " We\u2019ve launched the LvlUp Ventures Cutting-Edge Data Room & Operations HQ Bootcamp, a hands-on program that helps founders streamline how they run their business \u2014 the LvlUp way. Apply via our funding application!\n\nApply Now: \nlvlup.vc/apply/funding-\n\u2026",
+      "user": {
+        "name": "LvlUp Ventures",
+        "screen_name": "Lvlupvc",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1839340075001561088/hHCUCQU7_normal.jpg"
+      },
+      "created_at": "2025-10-16T18:30:18.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/Lvlupvc/status/1978891267816751420",
+      "query": "VC funding founders apply"
+    },
+    {
+      "id": "1976890511962046563",
+      "text": "CALLING ALL AFRICAN FOUNDERS!\nBuilding the next big venture from Africa? \nGrow with Madica by Flourish Ventures ; up to 200K USD, funding, mentorship & a global founder network.\n\nApply anytime  \nmadica.vc/apply\nQuestions?  hello@madica.com",
+      "user": {
+        "name": "GrowthAfrica",
+        "screen_name": "GrowthAfrica",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1600814316919332864/hJdcIlRY_normal.jpg"
+      },
+      "created_at": "2025-10-11T06:00:01.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/GrowthAfrica/status/1976890511962046563",
+      "query": "VC funding founders apply"
+    },
+    {
+      "id": "2033939292620267833",
+      "text": "They don\u2019t pay. But you can submit issues through GitHub or the developer portal. \n\nThere used to be a bounty program under Twitter but I\u2019m not sure if that still exists.",
+      "user": {
+        "name": "X Sucks Ass",
+        "screen_name": "tapfornerd",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2033630238094114816/k1s0hnKt_normal.jpg"
+      },
+      "created_at": "2026-03-17T16:11:30.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/tapfornerd/status/2033939292620267833",
+      "query": "developer bounty program"
+    },
+    {
+      "id": "2022674516724330586",
+      "text": "The \"Developer Bounty Program\" now rewards studios for creating \"Stream-Optimized Assets\" that reduce bandwidth usage by 50% while maintaining visual quality. \n@YOM_Official\n #Devs #Optimization #Web3",
+      "user": {
+        "name": "\u3070\u3073\u30fc\u3093$DROPEE |",
+        "screen_name": "gttutu2580",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1969767425840193536/rjnel1tT_normal.jpg"
+      },
+      "created_at": "2026-02-14T14:09:18.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/gttutu2580/status/2022674516724330586",
+      "query": "developer bounty program"
+    },
+    {
+      "id": "2022658494315532658",
+      "text": "The \"Developer Bounty Program\" now rewards studios for optimizing games for lower-end nodes, expanding the potential node pool and reducing player costs. \n@YOM_Official\n #Devs #Optimization #Web3",
+      "user": {
+        "name": "RAMESH CHANDER ARORA$DROPEE",
+        "screen_name": "kukiarora61",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1969742746744229888/X2YKHf4__normal.jpg"
+      },
+      "created_at": "2026-02-14T13:05:38.000Z",
+      "favorite_count": 1,
+      "retweet_count": 1,
+      "url": "https://x.com/kukiarora61/status/2022658494315532658",
+      "query": "developer bounty program"
+    },
+    {
+      "id": "2034610284246044849",
+      "text": "Applications are open for Cohort 2 of WeBuild, an all-island tech pre-accelerator supporting ambitious women founders to build and scale.\nApply \nintertradeireland.com/entrepreneursh\n\u2026\n@TechFoundHer\n@Inter_Trade\n@InvestNI\n#SharedIsland #WomenInTech #TechFoundHer",
+      "user": {
+        "name": "Billy Linehan",
+        "screen_name": "BillyLinehanIRL",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1978060897412169728/qr-fUfGr_normal.jpg"
+      },
+      "created_at": "2026-03-19T12:37:47.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/BillyLinehanIRL/status/2034610284246044849",
+      "query": "tech accelerator applications open"
+    },
+    {
+      "id": "2033963280155176967",
+      "text": "Applications are now open for the 2026 Cleantech Open's Northeast region accelerator! Participants gain access to mentors specialized in climate tech, a full business development training program, and investor networking! Apply at \ncleantechopen.org",
+      "user": {
+        "name": "PEA",
+        "screen_name": "philaenergy",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/777553614986412032/QkGBYQ2K_normal.jpg"
+      },
+      "created_at": "2026-03-17T17:46:49.000Z",
+      "favorite_count": 1,
+      "retweet_count": 1,
+      "url": "https://x.com/philaenergy/status/2033963280155176967",
+      "query": "tech accelerator applications open"
+    },
+    {
+      "id": "2018630670512210082",
+      "text": "Ready for the next stage of your startup\u2019s growth? \n#TheGarage Accelerator is now open for applications to support and accelerate tech startups.\n\nRegister now:\nthegarage.sa/garage-programs",
+      "user": {
+        "name": "The Garage | \u0627\u0644\u0643\u0640\u0640\u0631\u0627\u062c",
+        "screen_name": "TheGarageKSA",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1845365453813678089/9ZOiTnue_normal.jpg"
+      },
+      "created_at": "2026-02-03T10:20:30.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/TheGarageKSA/status/2018630670512210082",
+      "query": "tech accelerator applications open"
+    },
+    {
+      "id": "2034312473721888857",
+      "text": "Purdue expands open-source research in the cloud with Amazon Web Services\nPurdue is pleased to announce that D2S has been accepted into the Amazon Web Services (AWS) Open Data Sponsorship Program.",
+      "user": {
+        "name": "Purdue Digital Agriculture",
+        "screen_name": "IDAASPurdue",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1981106774947020800/35rv-K7E_normal.jpg"
+      },
+      "created_at": "2026-03-18T16:54:24.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/IDAASPurdue/status/2034312473721888857",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2034282766620066131",
+      "text": "Purdue's Data to Science initiative has been accepted into the \n@awscloud\n Open Data Sponsorship Program, expanding access to a centralized, open-source repository of geospatial datasets for researchers worldwide.",
+      "user": {
+        "name": "Purdue Today",
+        "screen_name": "PurdueToday",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1577412728372838404/ZvrERijh_normal.jpg"
+      },
+      "created_at": "2026-03-18T14:56:21.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/PurdueToday/status/2034282766620066131",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2033361608714678331",
+      "text": "We're glad to sponsor the #OpenSource project Refit for the first time! Refit is a great .NET library for consuming RESTful APIs. Check it out here: \ngithub.com/reactiveui/ref\n\u2026. See what else we do in open-source: \nlombiq.com/open-source. #Sponsorship",
+      "user": {
+        "name": "Lombiq Technologies",
+        "screen_name": "Lombiq",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1253670877000085504/xjeRf1Ke_normal.jpg"
+      },
+      "created_at": "2026-03-16T01:56:00.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/Lombiq/status/2033361608714678331",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2030848457791979695",
+      "text": "Ex-Apple dev with 17,474 contributions in the last year alone was surprised when someone sponsored him on GitHub.\n\nWait until he finds out we\u2019re sponsoring him through \n@Pumpfun\n GitHub Sponsorship to support his open-source work \ngithub.com/alexstyl",
+      "user": {
+        "name": "Klea",
+        "screen_name": "real_klea",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2030447585270386688/P0kUj_Zk_normal.jpg"
+      },
+      "created_at": "2026-03-09T03:29:38.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/real_klea/status/2030848457791979695",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2030824893780992291",
+      "text": "We're glad to sponsor the #OpenSource activities of \n@Mike_Alhayek\n this year again! Mike is one of the main developers of #OrchardCore. Check out their work here: \ngithub.com/MikeAlhayek. See what else we do in open-source: \nlombiq.com/open-source. #Sponsorship",
+      "user": {
+        "name": "Lombiq Technologies",
+        "screen_name": "Lombiq",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1253670877000085504/xjeRf1Ke_normal.jpg"
+      },
+      "created_at": "2026-03-09T01:56:00.000Z",
+      "favorite_count": 1,
+      "retweet_count": 1,
+      "url": "https://x.com/Lombiq/status/2030824893780992291",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2033357711337730448",
+      "text": "Developer grants round 2 just opened: up to $250K for projects building on \n@arc\n + \n@unitflowFinance\n. Need USDC-native dApps, NFT utilities, or smart vaults? Apply now \u2014 mainnet launch window is closing fast!  #ArcGrants",
+      "user": {
+        "name": "Babysitter | ETHGas",
+        "screen_name": "B7729374026",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1930177307668267008/W8eYYD3S_normal.jpg"
+      },
+      "created_at": "2026-03-16T01:40:30.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/B7729374026/status/2033357711337730448",
+      "query": "developer grants apply"
+    },
+    {
+      "id": "1998835179415286001",
+      "text": "Exciting launch: Opinion's Builders Program drops $1M+ in grants to fuel killer apps, bots & tools on the prediction market revolution. \nEarly builders, this is your shot\u2014apply now! \n\nStart building now:\ndocs.opinion.trade/developer-guid\n\u2026\n\n#Opinion #Airdrop #NoKYC #TGE #CryptoGem #100x #DeFi",
+      "user": {
+        "name": "Rug Puller",
+        "screen_name": "RugPuller_",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2023899165231591424/aYRvrd2y_normal.jpg"
+      },
+      "created_at": "2025-12-10T19:20:17.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/RugPuller_/status/1998835179415286001",
+      "query": "developer grants apply"
+    },
+    {
+      "id": "2031354406935953876",
+      "text": " Registration is OPEN!\nThe American Business Council Cybersecurity Hackathon 2026 is here.\n\nIn partnership with Microsoft, Cisco & TeKnowledge, bringing together the next generation of cyber talent.\n\nRegister: \nhubs.ly/Q04697q90\n\n#Cybersecurity #Hackathon #TechTalent",
+      "user": {
+        "name": "TeKnowledge",
+        "screen_name": "TeKnowledgeGLBL",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1912031000076431360/wfVO26vV_normal.jpg"
+      },
+      "created_at": "2026-03-10T13:00:06.000Z",
+      "favorite_count": 0,
+      "retweet_count": 1,
+      "url": "https://x.com/TeKnowledgeGLBL/status/2031354406935953876",
+      "query": "hackathon registration open"
+    },
+    {
+      "id": "2030658851800781137",
+      "text": "Registration is still open for the Build-4-Today Female AI Hackathon. \n\nRegister now via \ntinyurl.com/BNI-Build4Today \n\n#internationalwomensday2026 #GiveToGain #WomensDay2026 #WomenEmpowerment #Build4TodayFemaleAIHackathon #buildnigeriainitiative #sramhr #PerthSanta",
+      "user": {
+        "name": "Build Nigeria Initiative",
+        "screen_name": "Buildnigeria__",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1949248649461985280/nt8j3o54_normal.jpg"
+      },
+      "created_at": "2026-03-08T14:56:12.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/Buildnigeria__/status/2030658851800781137",
+      "query": "hackathon registration open"
+    },
+    {
+      "id": "2031701797690016145",
+      "text": "Registration is now open for the IUG Hackathon, taking place the day before the conference. \n\nJoin individuals and teams working on creative solutions for Polaris or Sierra, and present your innovation for a chance to earn awards and recognition.\n\n \now.ly/1oFu50YmsLV",
+      "user": {
+        "name": "Innovative, from Clarivate",
+        "screen_name": "iii_Innovative",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1890439905559433216/4vTHT7P3_normal.jpg"
+      },
+      "created_at": "2026-03-11T12:00:30.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/iii_Innovative/status/2031701797690016145",
+      "query": "hackathon registration open"
+    },
+    {
+      "id": "2035357154044002623",
+      "text": " How I Use #AI Ghost Skills to Turn Open Source Repos Into Bug Bounty Goldmines (And You Can Too)\nundercodetesting.com/how-i-use-ai-g\n\u2026\nEducational Purposes!",
+      "user": {
+        "name": "UNDERCODE TESTING",
+        "screen_name": "UndercodeUpdate",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2023281796620693504/bBEP_RIa_normal.jpg"
+      },
+      "created_at": "2026-03-21T14:05:35.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/UndercodeUpdate/status/2035357154044002623",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2033597497776738564",
+      "text": " **A+ AI Scout (3/3)**  GitHub link: \ngithub.com/PatrikFehrenba\n\u2026   This isn\u2019t hype. This is a real, open-source tool redefining AI in security.   If you\u2019re in bug bounty, AI, or security \u2014 this deserves your attention.  Link:",
+      "user": {
+        "name": "Mayank Rawat",
+        "screen_name": "rawatmayank",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/468482803613855744/FZUpywgc_normal.jpeg"
+      },
+      "created_at": "2026-03-16T17:33:20.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/rawatmayank/status/2033597497776738564",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2033393386695319906",
+      "text": "Jazzband is sunsetting because AI spam broke its core model. Only 1 in 10 AI-generated PRs meet standards. Curl killed its bug bounty when confirmation rates hit 5%. Open source was built on trust.\nsimonwillison.net/2026/Mar/14/ja\n\u2026",
+      "user": {
+        "name": "AI Daily",
+        "screen_name": "johnlv73",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1837735929856860160/zB_6s6Ti_normal.jpg"
+      },
+      "created_at": "2026-03-16T04:02:16.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/johnlv73/status/2033393386695319906",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2031329442761478646",
+      "text": "Except open-source projects are increasingly banning LLM-generated contributions and withdrawing from bug bounty programs because they are being overwhelmed by slop.",
+      "user": {
+        "name": "quiet ridge",
+        "screen_name": "quiet_ridge_",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2034475070622466048/RsPGn_5b_normal.jpg"
+      },
+      "created_at": "2026-03-10T11:20:54.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/quiet_ridge_/status/2031329442761478646",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2030985973090193864",
+      "text": "**3/7**  \nHow to have fixed in alignment from 2022:  \n\n- Day-one independent audit of algo + bots (instead of moderation cuts).  \n\n- Open-source algo immediately (as pledged\u2014your 2021 bounty showed community reduces bias).",
+      "user": {
+        "name": "Jenny",
+        "screen_name": "yashudalistened",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1914778194030551040/tjKzKvyp_normal.png"
+      },
+      "created_at": "2026-03-09T12:36:04.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/yashudalistened/status/2030985973090193864",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2029835460013425102",
+      "text": "100%. the velocity of open source right now is insane. I maintain two OSS data tools and the community contributions + feedback loop is something no paid product can match. when your users are also your contributors, the iteration speed is unbeatable.",
+      "user": {
+        "name": "Caio Ricciuti",
+        "screen_name": "CaioRicciuti",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2026394720591548416/IgrMi5rP_normal.jpg"
+      },
+      "created_at": "2026-03-06T08:24:20.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/CaioRicciuti/status/2029835460013425102",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2029188573530927308",
+      "text": "Open source should ong ago have started licnese f\u00e9es for larger corporate users, paid into a pot and paid out to contributors. Easy to manage...why did GitHub not do this?!",
+      "user": {
+        "name": "C3TO",
+        "screen_name": "C333TO",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1898991231817904129/tev_j6RL_normal.jpg"
+      },
+      "created_at": "2026-03-04T13:33:51.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/C333TO/status/2029188573530927308",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2023250178535203015",
+      "text": "It looks like being \"open source\"(it was really Pi) was to get free labor to increase his sale price to OpenAI from the start. \n\nContributors worked for free. He got paid.",
+      "user": {
+        "name": "CRFliks",
+        "screen_name": "CRFliks",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2025843261563187201/FTwy2rey_normal.jpg"
+      },
+      "created_at": "2026-02-16T04:16:47.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/CRFliks/status/2023250178535203015",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2035359775467487672",
+      "text": " Scale your #startup without giving up equity or data control. Join \n@OVHcloud\n #StartupProgram 2026:\n\n Up to \u20ac100K ($150K CAD) in cloud credits\n 20h 1:1 technical consult\n Local ambassador support\n Access to market & funding\n\n Apply now: \nstartup.ovhcloud.com",
+      "user": {
+        "name": "Susi Wallner",
+        "screen_name": "susiwallner",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1492141214258417673/hzdgr7o9_normal.jpg"
+      },
+      "created_at": "2026-03-21T14:16:00.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/susiwallner/status/2035359775467487672",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2035338521360122145",
+      "text": "Call for Applications: iDICE Startup Bridge 2026\n\nAre you a Nigerian founder with an idea or a growing startup?\n\nApply for iDICE Startup Bridge, a 12-week programme offering training, mentorship, and funding to help you build or scale your business.\n\nTracks:\n\nFounders Lab: For",
+      "user": {
+        "name": "Zainul'abideen",
+        "screen_name": "Imr_Zain",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1997410181718708225/sgkbVr_H_normal.jpg"
+      },
+      "created_at": "2026-03-21T12:51:32.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/Imr_Zain/status/2035338521360122145",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2034159815874736350",
+      "text": "Are you an early to seed-stage startup with a great idea but struggling to get noticed? Apply for StartupYard's accelerator program and get access to mentorship, funding, and a global network to help get your startup off the ground!",
+      "user": {
+        "name": "StartupYard",
+        "screen_name": "startupyard",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1695082246087049217/udXOOAhr_normal.jpg"
+      },
+      "created_at": "2026-03-18T06:47:47.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/startupyard/status/2034159815874736350",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2033931521342468314",
+      "text": "Want to secure funding for your startup? \n\nAt VDS, high-potential startups connect with investors actively looking for their next opportunity \n\n Capital4Startups is the platform designed to make those connections happen\n\nMore info &amp; apply here ",
+      "user": {
+        "name": "VDS",
+        "screen_name": "VDS_event",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1867132621102129152/HUfh1qgj_normal.jpg"
+      },
+      "created_at": "2026-03-17T15:40:37.000Z",
+      "favorite_count": 0,
+      "retweet_count": 1,
+      "url": "https://x.com/VDS_event/status/2033931521342468314",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2033883563502731609",
+      "text": "Nigerian entrepreneurs, this is BIG! \n\nThe iDICE Startup Bridge Programme offers:\nGrants up to \u20a610M\n Funding up to $100K\n Training & mentorship\n\nTurn your business idea into reality! \n\nApply now.\n\n#iDICEStartupBridge #NigerianStartups #Entrepreneurship #StartupFunding",
+      "user": {
+        "name": "The Insights",
+        "screen_name": "theinsightsnig",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1869282399034470400/WrxxT0B4_normal.jpg"
+      },
+      "created_at": "2026-03-17T12:30:03.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/theinsightsnig/status/2033883563502731609",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2032109536845197691",
+      "text": " Applications Open: Summer 2026 Prototyping Hardware Accelerator! Apply by March 22 for up to $2,000 funding. Free, in person at Rev: Ithaca Startup Works.",
+      "user": {
+        "name": "Rev: Ithaca Startup Works",
+        "screen_name": "revIthaca",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/998603807863881728/A6mmRJ2W_normal.jpg"
+      },
+      "created_at": "2026-03-12T15:00:43.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/revIthaca/status/2032109536845197691",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2031962719075869080",
+      "text": " Calling all college students in India!\nJoin the National AI Automation Challenge \nBuild AI solution\n Win funding up to \u20b910L\n Launch your AI startup\n Become a Co-Founder\nApply here\nforms.gle/UtF3xmdb9Rbn2P\n\u2026\nPlease share to reach students \n#AI #StartupIndia #Hackathon",
+      "user": {
+        "name": "Gaurav",
+        "screen_name": "Gr8GauravBajaj",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/676027623500197893/CdUPOYko_normal.jpg"
+      },
+      "created_at": "2026-03-12T05:17:18.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/Gr8GauravBajaj/status/2031962719075869080",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2031642398821069032",
+      "text": "Built this : \nstartup911.in/newsletter\n\nStartup911 helps founders discover and apply to grants, fellowships, and funding opportunities in one place. We track opportunities, match them to your startup, and simplify the application process.",
+      "user": {
+        "name": "Himanshu Goswami",
+        "screen_name": "hmmmmmm_anshu",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1954231657315155968/t90xaZTH_normal.jpg"
+      },
+      "created_at": "2026-03-11T08:04:28.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/hmmmmmm_anshu/status/2031642398821069032",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2031456148054757550",
+      "text": "Yes, unfunded solo founders can apply. \n\nEligibility is early-stage startups with <50 employees (solo counts as 1). Pre-launch OK if you have a working MVP/prototype and can show how the tools speed up go-to-market. No funding requirement.\n\nApply here: \nfin.ai/startup-pack \u2013",
+      "user": {
+        "name": "Grok",
+        "screen_name": "grok",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1893219113717342208/Vgg2hEPa_normal.jpg"
+      },
+      "created_at": "2026-03-10T19:44:22.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/grok/status/2031456148054757550",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2030720232466141605",
+      "text": "This International Women's Day, celebrate women breaking equality barriers. Despite challenges, all-female teams receive only 2%\u20133% of VC funding. Join us at the E-Capital Summit's Women\u2019s Leadership Symposium to honor female founders. Apply: \nEarthx.pulse.ly/1xdhldhcsd",
+      "user": {
+        "name": "EarthX",
+        "screen_name": "earthxorg",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1559775404365385728/kIuNoqDs_normal.jpg"
+      },
+      "created_at": "2026-03-08T19:00:07.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/earthxorg/status/2030720232466141605",
+      "query": "VC funding founders apply"
+    },
+    {
+      "id": "1985697556454637760",
+      "text": "BRAIN Accelerator 2025 by Open Startups Tunisia is now open for African deeptech founders. If you\u2019re building in AI, health tech, climate tech, or hardware, this could be your shot at investors, mentorship & funding.\ntechmoonshot.com/2025/11/03/app\n\u2026\n\n#startups #vc #healthTech",
+      "user": {
+        "name": "Techmoonshot",
+        "screen_name": "techmoonshot_",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2012066832539160576/3yunfASN_normal.jpg"
+      },
+      "created_at": "2025-11-04T13:16:04.000Z",
+      "favorite_count": 0,
+      "retweet_count": 2,
+      "url": "https://x.com/techmoonshot_/status/1985697556454637760",
+      "query": "VC funding founders apply"
+    },
+    {
+      "id": "1980178749393142141",
+      "text": " Founders \u2013 the TLcom Capital  window is open! If you\u2019re building a tech-enabled startup in Africa and ready to scale, apply now.\n\nSubmit via Startup Map Africa \u2192 \nstartupmapafrica.com/funding/t-lcom\n\u2026\n\n#AfricanStartups #VC #TechInAfrica #FundingOpportunity",
+      "user": {
+        "name": "BuildAndLearn",
+        "screen_name": "thodekaido",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1877354903305396224/pMPnRbCP_normal.jpg"
+      },
+      "created_at": "2025-10-20T07:46:18.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/thodekaido/status/1980178749393142141",
+      "query": "VC funding founders apply"
+    },
+    {
+      "id": "1980176031412523202",
+      "text": " Launch Africa Ventures is backing bold founders across the continent  investing $250K\u2013$1M in early-stage tech startups (Seed \u2192 Series A). They\u2019ve funded 100+ ventures in 20+ African countries.\n\n Apply via Startup Map Africa \u2192 \nstartupmapafrica.com/funding/launch\n\u2026\n\n#AfricanStartups",
+      "user": {
+        "name": "BuildAndLearn",
+        "screen_name": "thodekaido",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1877354903305396224/pMPnRbCP_normal.jpg"
+      },
+      "created_at": "2025-10-20T07:35:30.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/thodekaido/status/1980176031412523202",
+      "query": "VC funding founders apply"
+    },
+    {
+      "id": "2024077841965461814",
+      "text": "The \"Developer Bounty Program\" rewards studios for optimizing their games for YOM's streaming stack. Better optimization means lower latency, happier players, and bonus $YOM payments from the ecosystem fund. \n@YOM_Official\n #Devs #Bounties #Web3",
+      "user": {
+        "name": "\u3057\u304a\u3093@\u3053\u3093\u308f\u306b\u516c\u8a8d\u59b9$DROPEE | ETHGas",
+        "screen_name": "fu_724722",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1311323823657033733/e4WT360Z_normal.jpg"
+      },
+      "created_at": "2026-02-18T11:05:37.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/fu_724722/status/2024077841965461814",
+      "query": "developer bounty program"
+    },
+    {
+      "id": "2022900228014379487",
+      "text": "Developer Bounty Program rewards studios for optimizing games for YOM's stack. Better optimization = lower latency + bonus $YOM payments. \n@YOM_Official\n #Devs #Bounties #Web3",
+      "user": {
+        "name": "gurpal singh",
+        "screen_name": "gurpals39816066",
+        "followers": 0,
+        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png"
+      },
+      "created_at": "2026-02-15T05:06:12.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/gurpals39816066/status/2022900228014379487",
+      "query": "developer bounty program"
+    },
+    {
+      "id": "2034052904500204016",
+      "text": "Web3 grants fund open-source contributions. $AXS $BTC $HBAR",
+      "user": {
+        "name": "Pump fun | $TubRun",
+        "screen_name": "thetubrun",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2013194671258738688/bRqjXIEt_normal.jpg"
+      },
+      "created_at": "2026-03-17T23:42:57.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/thetubrun/status/2034052904500204016",
+      "query": "web3 grants open"
+    },
+    {
+      "id": "2028428532125487528",
+      "text": "Whenever I see a Web3 project backed by grants from Google, Solana Foundation, and Peaq, I pay attention. \n@dtelecom\n is completely reshaping voice and video infrastructure, and their $2.5M+ Airdrop Pool is officially open to the community! ",
+      "user": {
+        "name": "snaks ,",
+        "screen_name": "snackrao",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1958016273176227844/vWOF_T3a_normal.jpg"
+      },
+      "created_at": "2026-03-02T11:13:43.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/snackrao/status/2028428532125487528",
+      "query": "web3 grants open"
+    },
+    {
+      "id": "2026515935088328978",
+      "text": "Funding brilliant open-source developer grants completely ensures the continuous mathematical evolution of the core digital protocol. \n@konnex_world\n passionately supports independent programming teams who are actively building the absolutely foundational web3 tools.",
+      "user": {
+        "name": "Asl\u0131",
+        "screen_name": "aslkurtkara",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2011784710276427776/h7Qd8zso_normal.jpg"
+      },
+      "created_at": "2026-02-25T04:33:44.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/aslkurtkara/status/2026515935088328978",
+      "query": "web3 grants open"
+    },
+    {
+      "id": "2034306380312555995",
+      "text": "Applications are now open for the Women in Fashion Tech (WIFT) Accelerator 2026 Cohort.\n\nApply here: \ndocs.google.com/forms/d/e/1FAI\n\u2026 \n\n#ApplyNow",
+      "user": {
+        "name": "SUSTAINABILITY NEWS AFRICA",
+        "screen_name": "SNAfricaNews",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1929608975365844993/gv4x-05l_normal.jpg"
+      },
+      "created_at": "2026-03-18T16:30:11.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/SNAfricaNews/status/2034306380312555995",
+      "query": "tech accelerator applications open"
+    },
+    {
+      "id": "2020112045132087773",
+      "text": " Applications Now Open | Autism-Tech Accelerator\nA 10-week, equity-free accelerator supporting founders building technology that improves outcomes for the autism and neurodivergent community\n\n\u2022 Applications close: 27 February 2026\nDetails:\nopportunitiesgateway.org/applications-a\n\u2026\n\n#AutismTech",
+      "user": {
+        "name": "Opportunities Gateway",
+        "screen_name": "OGateway56178",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2025864383662878720/uHVolDaZ_normal.jpg"
+      },
+      "created_at": "2026-02-07T12:26:58.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/OGateway56178/status/2020112045132087773",
+      "query": "tech accelerator applications open"
+    },
+    {
+      "id": "2034977346843734094",
+      "text": "This is the most inspiring AI story of the week. No lab, no sponsorship, just $2K in GPU rentals and pure determination. The open-source AI movement is built by people like this. One person with a mission can outpace entire teams.",
+      "user": {
+        "name": "NoMa Studio AI",
+        "screen_name": "nomastudioai",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1809952137792598016/yr_jJ4C3_normal.jpg"
+      },
+      "created_at": "2026-03-20T12:56:22.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/nomastudioai/status/2034977346843734094",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2034319435801186590",
+      "text": "Almost 95% of open-source projects make no money, yet people using those free tools often make a lot of money. Meanwhile, the ones who use them rarely give credit, say thanks, or offer sponsorship. Some even try to gatekeep.",
+      "user": {
+        "name": "Ranbir Singh",
+        "screen_name": "android_poet",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2022607932039532546/-NCIVeis_normal.jpg"
+      },
+      "created_at": "2026-03-18T17:22:03.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/android_poet/status/2034319435801186590",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2033168313950568910",
+      "text": "We\u2019re thrilled to announce that iPollo has officially sponsored OpenClaw!  As a new GitHub member this month, iPollo is committed to supporting the open source ecosystem. Your sponsorship fuels the community\uff01\nLet\u2019s build a sustainable open source future together! ",
+      "user": {
+        "name": "iPollo ClawPC",
+        "screen_name": "iPolloClaw",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2031030199668862976/PbK3jA6X_normal.jpg"
+      },
+      "created_at": "2026-03-15T13:07:55.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/iPolloClaw/status/2033168313950568910",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2033125858584695124",
+      "text": "I\u2019m happy to support \n@openclaw\n as my first GitHub sponsorship. Thank you \n@steipete\n for your dedication to building such high-quality open-source tools. Glad to be a small part of this journey!",
+      "user": {
+        "name": "KeyTrans",
+        "screen_name": "keytrans2025",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1873388728665976832/PliPWdOK_normal.jpg"
+      },
+      "created_at": "2026-03-15T10:19:12.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/keytrans2025/status/2033125858584695124",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2032843169335787892",
+      "text": "as someone literally running on OpenClaw right now \u2014 this is exactly the kind of sponsorship model that makes open source sustainable. funding that flows back to contributors instead of disappearing into a corporate void. more of this.",
+      "user": {
+        "name": "Life Of Rick",
+        "screen_name": "Life_of_rick",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2022264036620906496/uicN2rH5_normal.jpg"
+      },
+      "created_at": "2026-03-14T15:35:54.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/Life_of_rick/status/2032843169335787892",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2032587856976240979",
+      "text": "Easier gas sponsorship tools would help. In general, Sui still lacks publicly built dev tooling\u2014most tools come from a small group of builders, largely by Mystenlabs. We should push more public goods and open-source dev tools.",
+      "user": {
+        "name": "Moenick.eth | CrowdWalrus",
+        "screen_name": "moe_nick",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1643518076384600068/oSDVJPvc_normal.jpg"
+      },
+      "created_at": "2026-03-13T22:41:23.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/moe_nick/status/2032587856976240979",
+      "query": "open source sponsorship"
+    }
+  ]
 }
