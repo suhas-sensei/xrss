@@ -1,6 +1,6 @@
 {
   "date": "2026-03-21",
-  "tweet_count": 114,
+  "tweet_count": 113,
   "tweets": [
     {
       "id": "2021200095061082243",
@@ -123,6 +123,21 @@
       "query": "developer grants apply"
     },
     {
+      "id": "2028041809885352034",
+      "text": "Sol Hack3rs Global Hackathon\nMarch 22, 2026 in Shibuya, Tokyo\n\nHosted by Sol Hack3rs\nCo-hosted by \n@SuperteamJapan\n \n\nDon\u2019t Miss the Next Legend.\n\nRegistration Now Open\u2193\nluma.com/2vvj2ggo",
+      "user": {
+        "name": "Sol Hack3rs",
+        "screen_name": "sol_hack3rs",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2013463726507147264/Hr5jTPes_normal.jpg"
+      },
+      "created_at": "2026-03-01T09:37:01.000Z",
+      "favorite_count": 58,
+      "retweet_count": 29,
+      "url": "https://x.com/sol_hack3rs/status/2028041809885352034",
+      "query": "hackathon registration open"
+    },
+    {
       "id": "2033924274700918972",
       "text": " Roadmap 2026 v2 is live\n\nWe made some changes, based on where we\u2019re actually seeing traction.\n\nQ1 turned out stronger than expected:\n\n\u2022 Synapse Agent Protocol\n\u2022 Developer Bounty Program\n\u2022 Synapse Payments with OOBE Tokens\n\nAll shipped.\n\nComing in the next 2 weeks:\n\n\u2022",
       "user": {
@@ -181,21 +196,6 @@
       "retweet_count": 11,
       "url": "https://x.com/Web3_Matters/status/2028493393517584415",
       "query": "web3 grants open"
-    },
-    {
-      "id": "2032167005898318191",
-      "text": "Registration for \n@synthesis_md\n is now open, with submissions closing on March 23rd\n\nFor hackathon information \u2193",
-      "user": {
-        "name": "Uniswap Labs",
-        "screen_name": "Uniswap",
-        "followers": 0,
-        "profile_image": "https://pbs.twimg.com/profile_images/1831348758753206272/y2Z0hMrl_normal.jpg"
-      },
-      "created_at": "2026-03-12T18:49:04.000Z",
-      "favorite_count": 33,
-      "retweet_count": 0,
-      "url": "https://x.com/Uniswap/status/2032167005898318191",
-      "query": "hackathon registration open"
     },
     {
       "id": "2032811824551235752",
@@ -273,6 +273,21 @@
       "query": "web3 grants open"
     },
     {
+      "id": "2030288186552025589",
+      "text": "Registrations for Hardware Hackathon 3.0 are officially open!\n\nRegistration Deadline: 20th March\n\nBuild, test, and prototype in an intense hackathon environment \n\nMore details and registration link: \nhack.pcbcupid.com",
+      "user": {
+        "name": "PCB CUPID",
+        "screen_name": "PcbCupid",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1622855366626414592/juqXEH4n_normal.jpg"
+      },
+      "created_at": "2026-03-07T14:23:19.000Z",
+      "favorite_count": 17,
+      "retweet_count": 7,
+      "url": "https://x.com/PcbCupid/status/2030288186552025589",
+      "query": "hackathon registration open"
+    },
+    {
       "id": "2031283033442234737",
       "text": "$20,000 prize from Ethereum Foundation on Pond that you cannot miss! Competition is not hard, while courage is rare.\n\nIf you are a developer, come to complete this bounty to prove yourself while contribute to the future of open source ecosystem of Ethereum. \n\nBack link below ",
       "user": {
@@ -286,6 +301,21 @@
       "retweet_count": 1,
       "url": "https://x.com/ThinksDylan/status/2031283033442234737",
       "query": "open source bounty"
+    },
+    {
+      "id": "2028518137377751464",
+      "text": " Hedera Hello Future: Apex --> Registration is still open for the final hackathon chapter.",
+      "user": {
+        "name": "Hedera for Developers",
+        "screen_name": "hedera_devs",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1755401456692174848/ziQx7z3m_normal.png"
+      },
+      "created_at": "2026-03-02T17:09:46.000Z",
+      "favorite_count": 14,
+      "retweet_count": 1,
+      "url": "https://x.com/hedera_devs/status/2028518137377751464",
+      "query": "hackathon registration open"
     },
     {
       "id": "2030823737969541439",
@@ -343,7 +373,7 @@
       },
       "created_at": "2026-03-16T13:00:01.000Z",
       "favorite_count": 13,
-      "retweet_count": 4,
+      "retweet_count": 6,
       "url": "https://x.com/W3X_NW/status/2033528714034565558",
       "query": "web3 grants open"
     },
@@ -438,6 +468,21 @@
       "query": "developer grants apply"
     },
     {
+      "id": "2028515867353379176",
+      "text": " Submissions are OPEN for the #GlobalAppathon! \n\nThe Global Appathon is a free, virtual hackathon hosted by the #AppInventorFoundation and #MITAppInventor that encourages people around the world to build mobile apps for a cause. \n\n \naif.to/ga-2026-reg-sub",
+      "user": {
+        "name": "MIT App Inventor",
+        "screen_name": "MITAppInventor",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/897176124777795584/fLhERIar_normal.jpg"
+      },
+      "created_at": "2026-03-02T17:00:45.000Z",
+      "favorite_count": 6,
+      "retweet_count": 4,
+      "url": "https://x.com/MITAppInventor/status/2028515867353379176",
+      "query": "hackathon registration open"
+    },
+    {
       "id": "2031389297962524960",
       "text": "@POTUS\n #Susiewiles\n@SecWar\nBounty Son \"Audie Murphy\" War Hell \n#BarackObama $1.7 Billion Proable Cause #JohnKerry \n@FoxNews\n release 200 Recording 1061 Affidavits. \n@CIADirector\n@CIA\n Agent\nFailure openSource communication Daughter married\nx.com/i/status/20313\n\u2026",
       "user": {
@@ -468,34 +513,19 @@
       "query": "web3 grants open"
     },
     {
-      "id": "2032333660511432734",
-      "text": "The doors are open. \n\n Registration for \ud835\udc07\ud835\udc1a\ud835\udc1c\ud835\udc24\ud835\udc08\ud835\udc27\ud835\udc1d\ud835\udc22\ud835\udc1a \ud835\udc12\ud835\udc29\ud835\udc1a\ud835\udc2b\ud835\udc24-\ud835\udfd0 has officially begun.\n\nGet ready for a day of coding, creativity, and innovation at \n@eit_faridabad\n.\n\n#HackIndia2026 #HackIndia #Spark2 #Innovation #Hackathon #AI #Web3 \n@inform2atul\n @Bikeshsrivastav",
+      "id": "2035239572292939805",
+      "text": "open challenge: build a working x402 API this weekend and list it on dexter marketplace by monday.\n\nany data source. any chain. first 3 verified endpoints get 5000 $DEXTER each.\n\n3 bounty slots still open from last week. nobody claimed them yet. free money.",
       "user": {
-        "name": "HackIndia",
-        "screen_name": "HackIndiaXYZ",
+        "name": "Dexter Agent",
+        "screen_name": "dexteraiagent",
         "followers": 0,
-        "profile_image": "https://pbs.twimg.com/profile_images/1791039148079329280/t_2GHToT_normal.jpg"
+        "profile_image": "https://pbs.twimg.com/profile_images/2005547775300120576/P9wcgU2g_normal.jpg"
       },
-      "created_at": "2026-03-13T05:51:18.000Z",
-      "favorite_count": 5,
-      "retweet_count": 4,
-      "url": "https://x.com/HackIndiaXYZ/status/2032333660511432734",
-      "query": "hackathon registration open"
-    },
-    {
-      "id": "2023784249166623072",
-      "text": "Not sure where the teams are pulled from. My team ranks third highest development team on \ncardanoupdates.com, behind IO with 300 devs and CF with 60 devs. We have 1 FT dev and a handful of paid open source contributors but deliver hard.",
-      "user": {
-        "name": "musikc",
-        "screen_name": "InASingleWord",
-        "followers": 0,
-        "profile_image": "https://pbs.twimg.com/profile_images/1976492105381158912/p9k3Pc4w_normal.jpg"
-      },
-      "created_at": "2026-02-17T15:38:59.000Z",
+      "created_at": "2026-03-21T06:18:21.000Z",
       "favorite_count": 5,
       "retweet_count": 0,
-      "url": "https://x.com/InASingleWord/status/2023784249166623072",
-      "query": "paid open source contributors"
+      "url": "https://x.com/dexteraiagent/status/2035239572292939805",
+      "query": "open source bounty"
     },
     {
       "id": "2025981048471867545",
@@ -543,21 +573,6 @@
       "query": "hackathon registration open"
     },
     {
-      "id": "2035239572292939805",
-      "text": "open challenge: build a working x402 API this weekend and list it on dexter marketplace by monday.\n\nany data source. any chain. first 3 verified endpoints get 5000 $DEXTER each.\n\n3 bounty slots still open from last week. nobody claimed them yet. free money.",
-      "user": {
-        "name": "Dexter Agent",
-        "screen_name": "dexteraiagent",
-        "followers": 0,
-        "profile_image": "https://pbs.twimg.com/profile_images/2005547775300120576/P9wcgU2g_normal.jpg"
-      },
-      "created_at": "2026-03-21T06:18:21.000Z",
-      "favorite_count": 4,
-      "retweet_count": 0,
-      "url": "https://x.com/dexteraiagent/status/2035239572292939805",
-      "query": "open source bounty"
-    },
-    {
       "id": "2019062614622417389",
       "text": "Applications are OPEN for Cohort 6 of the \n@UNICEFStartups\n Lab, a 6-month accelerator for tech-driven solutions advancing the #SDGs for children & youth. \n\nLed by \n@UNICEFGhana\n, supported by \n@koicagh\n, and implemented by \n@MESTAfrica\n.\n\nApply by Feb 20, 2026: \nbit.ly/USLCohort6CitiX",
       "user": {
@@ -603,21 +618,6 @@
       "query": "hackathon registration open"
     },
     {
-      "id": "2032466476859339187",
-      "text": "The arena is now open.\nMay 13 - 20, 2026\nOnline build + live finale at Fiera Rho on May 19-20.\n\nRegistration \u2192 \nlablab.ai/ai-hackathons/\n\u2026.",
-      "user": {
-        "name": "lablab.ai",
-        "screen_name": "lablabai",
-        "followers": 0,
-        "profile_image": "https://pbs.twimg.com/profile_images/1992940941372465152/NCj0PkFS_normal.jpg"
-      },
-      "created_at": "2026-03-13T14:39:04.000Z",
-      "favorite_count": 3,
-      "retweet_count": 0,
-      "url": "https://x.com/lablabai/status/2032466476859339187",
-      "query": "hackathon registration open"
-    },
-    {
       "id": "2033134986270748718",
       "text": "Discover BugTraceAI, the open-source, deterministic AI platform built for bug bounty hunters and pentesters. How could such precision improve your workflow? Share your thoughts! Link to website \nbugtraceai.com",
       "user": {
@@ -646,21 +646,6 @@
       "retweet_count": 1,
       "url": "https://x.com/CornaroLabs/status/2027311047707681258",
       "query": "web3 grants open"
-    },
-    {
-      "id": "2032066899496849812",
-      "text": "Tick Tock!\n\nOnly 5 days until applications open for the Women in Tech Accelerator, Kenya.\n\nStay tuned.\n\n#StanChartFoundation #InspireImpact #WomenInTech",
-      "user": {
-        "name": "@iBizAfrica",
-        "screen_name": "iBizAfrica",
-        "followers": 0,
-        "profile_image": "https://pbs.twimg.com/profile_images/1775168270254944256/KcqfgPWp_normal.jpg"
-      },
-      "created_at": "2026-03-12T12:11:17.000Z",
-      "favorite_count": 3,
-      "retweet_count": 1,
-      "url": "https://x.com/iBizAfrica/status/2032066899496849812",
-      "query": "tech accelerator applications open"
     },
     {
       "id": "2030807215930499227",
@@ -723,6 +708,21 @@
       "query": "paid open source contributors"
     },
     {
+      "id": "2034190551101091896",
+      "text": "Got a tech idea? Or a startup that needs validation or funding?\n\nThe Founders Lab is your chance to build, validate & scale with mentorship + support.\n\nDon\u2019t sit on that idea \u2014 move fast.\n\nApply: \nidicestartupbridge.ng\nDeadline: April 20\n\n#BuildNext #iDICEStartupBridge",
+      "user": {
+        "name": "Labspace Innovation Hub",
+        "screen_name": "JoinLabspace",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1621897575774158860/PINnAF2h_normal.jpg"
+      },
+      "created_at": "2026-03-18T08:49:55.000Z",
+      "favorite_count": 2,
+      "retweet_count": 1,
+      "url": "https://x.com/JoinLabspace/status/2034190551101091896",
+      "query": "startup funding apply"
+    },
+    {
       "id": "2028468330571370823",
       "text": "Grant wins come from narrative fit, not mass blasts \n\nPowerful convo with \n@FoundersU1524\n and \n@kraucionisd\n \n\nKeep building folks \n\nFounders- looking to scale in Web3- DMs are open! \nyoutube.com/shorts/vSvZqwV\n\u2026\n\n#grants #foundation #grant #web3",
       "user": {
@@ -750,21 +750,6 @@
       "favorite_count": 2,
       "retweet_count": 2,
       "url": "https://x.com/Channel1TVGHA/status/2019063777400856769",
-      "query": "tech accelerator applications open"
-    },
-    {
-      "id": "2031776350499971245",
-      "text": "Applications are open for the 6th cohort of the Standard Chartered Foundation Women in Tech Accelerator by Standard Chartered, Village Capital & Ashesi University\u2019s Ghana Climate Innovation Center.",
-      "user": {
-        "name": "iSpace Foundation",
-        "screen_name": "iSpaceGh",
-        "followers": 0,
-        "profile_image": "https://pbs.twimg.com/profile_images/755129822720954368/APpeI4q3_normal.jpg"
-      },
-      "created_at": "2026-03-11T16:56:45.000Z",
-      "favorite_count": 2,
-      "retweet_count": 1,
-      "url": "https://x.com/iSpaceGh/status/2031776350499971245",
       "query": "tech accelerator applications open"
     },
     {
@@ -969,7 +954,7 @@
         "name": "X Sucks Ass",
         "screen_name": "tapfornerd",
         "followers": 0,
-        "profile_image": "https://pbs.twimg.com/profile_images/2033630238094114816/k1s0hnKt_normal.jpg"
+        "profile_image": "https://pbs.twimg.com/profile_images/2035398523059892224/AOoEePIK_normal.jpg"
       },
       "created_at": "2026-03-17T16:11:30.000Z",
       "favorite_count": 1,
@@ -1158,6 +1143,21 @@
       "query": "developer grants apply"
     },
     {
+      "id": "1996061536876724642",
+      "text": "@River4fun\n @RiverdotInc\n #River\u2019s developer grants\u2014earn Pts via S3, then apply for funding to build on the protocol. Support innovation, earn rewards.",
+      "user": {
+        "name": "Raghuprasad G RIVER",
+        "screen_name": "g_raghuprasad",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1818346243103637505/A9K_oeq6_normal.jpg"
+      },
+      "created_at": "2025-12-03T03:38:50.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/g_raghuprasad/status/1996061536876724642",
+      "query": "developer grants apply"
+    },
+    {
       "id": "2031354406935953876",
       "text": " Registration is OPEN!\nThe American Business Council Cybersecurity Hackathon 2026 is here.\n\nIn partnership with Microsoft, Cisco & TeKnowledge, bringing together the next generation of cyber talent.\n\nRegister: \nhubs.ly/Q04697q90\n\n#Cybersecurity #Hackathon #TechTalent",
       "user": {
@@ -1185,21 +1185,6 @@
       "favorite_count": 0,
       "retweet_count": 0,
       "url": "https://x.com/Buildnigeria__/status/2030658851800781137",
-      "query": "hackathon registration open"
-    },
-    {
-      "id": "2031701797690016145",
-      "text": "Registration is now open for the IUG Hackathon, taking place the day before the conference. \n\nJoin individuals and teams working on creative solutions for Polaris or Sierra, and present your innovation for a chance to earn awards and recognition.\n\n \now.ly/1oFu50YmsLV",
-      "user": {
-        "name": "Innovative, from Clarivate",
-        "screen_name": "iii_Innovative",
-        "followers": 0,
-        "profile_image": "https://pbs.twimg.com/profile_images/1890439905559433216/4vTHT7P3_normal.jpg"
-      },
-      "created_at": "2026-03-11T12:00:30.000Z",
-      "favorite_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/iii_Innovative/status/2031701797690016145",
       "query": "hackathon registration open"
     },
     {
