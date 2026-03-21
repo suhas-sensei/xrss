@@ -11,21 +11,165 @@
     background: #0d1117;
     color: #c9d1d9;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 2rem;
   }
-  h1 { font-size: 2.5rem; color: #58a6ff; margin-bottom: 1rem; }
-  p { color: #8b949e; font-size: 1.1rem; max-width: 500px; line-height: 1.6; }
-  .status { margin-top: 2rem; color: #3fb950; font-size: 0.9rem; }
+  .header {
+    background: linear-gradient(135deg, #161b22, #1a1f2b);
+    border-bottom: 1px solid #30363d;
+    padding: 1.5rem 2rem;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 1.8rem;
+    color: #58a6ff;
+    margin-bottom: 0.3rem;
+  }
+  .header p {
+    color: #8b949e;
+    font-size: 0.9rem;
+  }
+  .tabs {
+    display: flex;
+    gap: 0.25rem;
+    padding: 1rem 2rem 0;
+    overflow-x: auto;
+    background: #161b22;
+    border-bottom: 1px solid #30363d;
+  }
+  .tab-btn {
+    background: transparent;
+    border: none;
+    color: #8b949e;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+    transition: all 0.2s;
+  }
+  .tab-btn:hover { color: #c9d1d9; }
+  .tab-btn.active {
+    color: #58a6ff;
+    border-bottom-color: #58a6ff;
+  }
+  .badge {
+    background: #30363d;
+    border-radius: 10px;
+    padding: 0.1rem 0.5rem;
+    font-size: 0.75rem;
+    margin-left: 0.3rem;
+  }
+  .tab-content {
+    padding: 1.5rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .tab-content h2 {
+    color: #c9d1d9;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .category-section {
+    margin-bottom: 2rem;
+  }
+  .category-title {
+    color: #58a6ff;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #21262d;
+  }
+  .count {
+    color: #8b949e;
+    font-weight: normal;
+    font-size: 0.9rem;
+  }
+  .tweet-card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+    transition: border-color 0.2s;
+  }
+  .tweet-card:hover {
+    border-color: #58a6ff;
+  }
+  .tweet-header {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-bottom: 0.6rem;
+  }
+  .avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .tweet-user strong {
+    color: #e6edf3;
+    font-size: 0.9rem;
+  }
+  .handle {
+    color: #8b949e;
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+  }
+  .followers {
+    color: #8b949e;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+  }
+  .tweet-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #c9d1d9;
+    margin-bottom: 0.6rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .tweet-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8rem;
+    color: #8b949e;
+  }
+  .tweet-meta a {
+    color: #58a6ff;
+    text-decoration: none;
+  }
+  .tweet-meta a:hover {
+    text-decoration: underline;
+  }
+  .empty {
+    text-align: center;
+    color: #8b949e;
+    padding: 3rem;
+    font-size: 1.1rem;
+  }
+  @media (max-width: 600px) {
+    .header { padding: 1rem; }
+    .tabs { padding: 0.5rem 1rem 0; }
+    .tab-content { padding: 1rem; }
+  }
 </style>
 </head>
 <body>
-  <h1>XRSS</h1>
-  <p>Daily digest of grants, hackathons, bounties, paid OSS & funding opportunities from X.</p>
-  <p class="status">Waiting for first scrape to run. Trigger it manually from GitHub Actions or wait until 11 PM.</p>
+  <div class="header">
+    <h1>XRSS</h1>
+    <p>Daily digest of grants, hackathons, bounties, paid OSS & funding opportunities from X</p>
+  </div>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="openTab(event, 'day-2026-03-21')">Mar 21 <span class="badge">0</span></button>
+  </div>
+  <div id="day-2026-03-21" class="tab-content" style="display:block"><h2>2026-03-21 &mdash; 0 tweets found</h2><p class="empty">No tweets found for this day.</p></div>
+  <script>
+    function openTab(evt, tabId) {
+      document.querySelectorAll('.tab-content').forEach(el => el.style.display = 'none');
+      document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+      document.getElementById(tabId).style.display = 'block';
+      evt.currentTarget.classList.add('active');
+    }
+  </script>
 </body>
 </html>
