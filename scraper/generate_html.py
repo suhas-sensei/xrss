@@ -39,8 +39,10 @@ def render_tweet_card(tweet: dict, day_id: str, cat_id: str) -> str:
     retweets = tweet.get("retweet_count", 0)
     profile_img = escape(user.get("profile_image", ""))
 
+    tweet_id = escape(tweet.get("id", ""))
+
     return f"""
-    <div class="tweet-card" data-day="{day_id}" data-cat="{cat_id}">
+    <div class="tweet-card" data-day="{day_id}" data-cat="{cat_id}" data-tweetid="{tweet_id}">
       <div class="tweet-header">
         <img src="{profile_img}" alt="" class="avatar" onerror="this.style.display='none'">
         <div class="tweet-user">
@@ -48,6 +50,7 @@ def render_tweet_card(tweet: dict, day_id: str, cat_id: str) -> str:
           <span class="handle">@{handle}</span>
           <span class="followers">{followers:,} followers</span>
         </div>
+        <button class="tick-btn" onclick="toggleTick(this, '{tweet_id}')" title="Mark as seen">&#10003;</button>
       </div>
       <p class="tweet-text">{text}</p>
       <div class="tweet-meta">
@@ -254,6 +257,35 @@ def generate_html():
   .tweet-card.hidden {{
     display: none;
   }}
+  .tweet-card.ticked {{
+    border-color: #3fb950;
+    background: #0d1117;
+  }}
+  .tick-btn {{
+    margin-left: auto;
+    background: transparent;
+    border: 1.5px solid #30363d;
+    color: #30363d;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.2s;
+  }}
+  .tick-btn:hover {{
+    border-color: #3fb950;
+    color: #3fb950;
+  }}
+  .tick-btn.ticked {{
+    background: #3fb950;
+    border-color: #3fb950;
+    color: #0d1117;
+  }}
   .tweet-header {{
     display: flex;
     align-items: center;
@@ -337,7 +369,6 @@ def generate_html():
       const btn = evt.currentTarget;
       const isActive = btn.classList.contains('active');
 
-      // Toggle: if clicking active button, deselect and show all
       const filters = document.getElementById('filters-' + dayId);
       filters.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
 
@@ -345,10 +376,8 @@ def generate_html():
       const allCards = cards.querySelectorAll('.tweet-card');
 
       if (isActive) {{
-        // Show all
         allCards.forEach(c => c.classList.remove('hidden'));
       }} else {{
-        // Filter to selected category
         btn.classList.add('active');
         allCards.forEach(c => {{
           if (c.dataset.cat === catId) {{
@@ -359,6 +388,46 @@ def generate_html():
         }});
       }}
     }}
+
+    // Tick/bookmark system — persists in localStorage
+    function getTickedIds() {{
+      try {{ return JSON.parse(localStorage.getItem('xrss_ticked') || '[]'); }}
+      catch {{ return []; }}
+    }}
+
+    function saveTickedIds(ids) {{
+      localStorage.setItem('xrss_ticked', JSON.stringify(ids));
+    }}
+
+    function toggleTick(btn, tweetId) {{
+      let ids = getTickedIds();
+      const idx = ids.indexOf(tweetId);
+      if (idx === -1) {{
+        ids.push(tweetId);
+      }} else {{
+        ids.splice(idx, 1);
+      }}
+      saveTickedIds(ids);
+      applyTicks();
+    }}
+
+    function applyTicks() {{
+      const ids = getTickedIds();
+      document.querySelectorAll('.tweet-card').forEach(card => {{
+        const tid = card.dataset.tweetid;
+        const btn = card.querySelector('.tick-btn');
+        if (ids.includes(tid)) {{
+          card.classList.add('ticked');
+          if (btn) btn.classList.add('ticked');
+        }} else {{
+          card.classList.remove('ticked');
+          if (btn) btn.classList.remove('ticked');
+        }}
+      }});
+    }}
+
+    // Apply ticks on page load
+    applyTicks();
   </script>
 </body>
 </html>"""
