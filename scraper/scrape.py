@@ -313,11 +313,24 @@ def main():
                 all_tweets.append(format_tweet(t, query))
             time.sleep(1)
 
-        # Deduplicate
+        # Load IDs from previous days to avoid duplicates across runs
+        past_ids = set()
+        for old_file in DATA_DIR.glob("*.json"):
+            if old_file.stem == today:
+                continue
+            try:
+                with open(old_file) as f:
+                    old_data = json.load(f)
+                for t in old_data.get("tweets", []):
+                    past_ids.add(t.get("id", ""))
+            except Exception:
+                pass
+
+        # Deduplicate within today + across past days
         seen = set()
         unique = []
         for t in all_tweets:
-            if t["id"] not in seen:
+            if t["id"] not in seen and t["id"] not in past_ids:
                 seen.add(t["id"])
                 unique.append(t)
         unique.sort(key=lambda t: t.get("favorite_count", 0), reverse=True)
