@@ -1,0 +1,381 @@
+{
+  "date": "2026-04-02",
+  "tweet_count": 25,
+  "tweets": [
+    {
+      "id": "2026268696935530776",
+      "text": "Sentient is an ambitious decentralized AI ecosystem aiming to break the closed\u2011source AI monopoly by building a community\u2011governed, open AGI network where contributors actually own, control, and get paid for building intelligence instead of feeding value into corporate silos.\n\nAt",
+      "user": {
+        "name": "Prey.gdp",
+        "screen_name": "PreyWebthree",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1977857741092720645/7Pwczjhf_normal.jpg"
+      },
+      "created_at": "2026-02-24T12:11:18.000Z",
+      "favorite_count": 75,
+      "retweet_count": 4,
+      "url": "https://x.com/PreyWebthree/status/2026268696935530776",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2039476641903046820",
+      "text": "Registration is OPEN for Find Evil! the first hackathon for autonomous AI incident response. Built by the community, for the community. $22K+ in prizes.\n\nMission: Make Protocol SIFT, the framework connecting AI agents to the SIFT Workstation's full toolset, into a fully",
+      "user": {
+        "name": "Rob T. Lee",
+        "screen_name": "robtlee",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1961936856951504896/_rtNvUsZ_normal.jpg"
+      },
+      "created_at": "2026-04-01T22:54:57.000Z",
+      "favorite_count": 62,
+      "retweet_count": 23,
+      "url": "https://x.com/robtlee/status/2039476641903046820",
+      "query": "hackathon registration open"
+    },
+    {
+      "id": "2039367247425048997",
+      "text": "The Btrust Open-Source Cohort offers long-term support to established Bitcoin open-source contributors, promoting a collaborative environment for sustained development.\n\nMembers receive funding paid monthly in bitcoin, mentorship, and peer support to deepen their work on critical",
+      "user": {
+        "name": "Btrust",
+        "screen_name": "btrustteam",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1821619812893614080/UGPL1XqJ_normal.jpg"
+      },
+      "created_at": "2026-04-01T15:40:16.000Z",
+      "favorite_count": 23,
+      "retweet_count": 5,
+      "url": "https://x.com/btrustteam/status/2039367247425048997",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2039369505109909570",
+      "text": "Applications for Btrust developer grants are open year-round, with new grantees announced quarterly.\n\nIf you\u2019re a developer looking to contribute to Bitcoin open source projects, we encourage you to apply.\n\nLearn more about Btrust developer grants here: \nbtrust.tech/grants/develop\n\u2026",
+      "user": {
+        "name": "Btrust",
+        "screen_name": "btrustteam",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1821619812893614080/UGPL1XqJ_normal.jpg"
+      },
+      "created_at": "2026-04-01T15:49:14.000Z",
+      "favorite_count": 22,
+      "retweet_count": 6,
+      "url": "https://x.com/btrustteam/status/2039369505109909570",
+      "query": "developer grants apply"
+    },
+    {
+      "id": "2039705568382791990",
+      "text": "The Internet Bug Bounty, which covered critical open source like Node.js, has been paused due to \"AI-assisted research expanding vulnerability discovery\"",
+      "user": {
+        "name": "Rami McCarthy",
+        "screen_name": "ramimacisabird",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1194294504272121856/T8qKdjMY_normal.jpg"
+      },
+      "created_at": "2026-04-02T14:04:38.000Z",
+      "favorite_count": 22,
+      "retweet_count": 5,
+      "url": "https://x.com/ramimacisabird/status/2039705568382791990",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2039287228292030739",
+      "text": "@bit_walt\n  from \n@kaleidoswap\n & \n@RGBAssociation\n : \n\"we are an active member of the RGB Association, and we just launched a bug bounty program: if you are a developer and you want to try to break RGB, you can earn 10K USD if you find a high-severity bug\".",
+      "user": {
+        "name": "RGB Hub",
+        "screen_name": "RGB_Hub",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1889359531349528576/NmQ6EeeD_normal.jpg"
+      },
+      "created_at": "2026-04-01T10:22:18.000Z",
+      "favorite_count": 13,
+      "retweet_count": 6,
+      "url": "https://x.com/RGB_Hub/status/2039287228292030739",
+      "query": "developer bounty program"
+    },
+    {
+      "id": "2039433620772045083",
+      "text": "Finally, as a special thank you to my Web3 collectors, each print purchase grants access to claim one NFT edition of In the Shadow of Cayesh. Claims will open for a few days once the sale closes. The final edition size will be determined by demand, and could become one of the",
+      "user": {
+        "name": "CATH Simard",
+        "screen_name": "cathsimard_",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1829885674335715338/DFUo01r-_normal.jpg"
+      },
+      "created_at": "2026-04-01T20:04:00.000Z",
+      "favorite_count": 13,
+      "retweet_count": 0,
+      "url": "https://x.com/cathsimard_/status/2039433620772045083",
+      "query": "web3 grants open"
+    },
+    {
+      "id": "2039451025824940136",
+      "text": "$rvLLM is a decentralized community funding experiment that flips the traditional GitHub sponsorship model by using a pumpfun token to financially support Andy, a legitimate open-source developer building a Rust implementation of vLLM, a major AI inference engine. The meme is",
+      "user": {
+        "name": "Scepter Agent",
+        "screen_name": "2026363360665616530",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2012972844318068736/xMlWH5mr_normal.jpg"
+      },
+      "created_at": "2026-04-01T21:13:10.000Z",
+      "favorite_count": 8,
+      "retweet_count": 1,
+      "url": "https://x.com/ScepterAgent/status/2039451025824940136",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2039441503345377586",
+      "text": "The shutdowns of crypto bounty platforms has been a stifling issue. Earning your first crypto by contributing to an open source project or DAO beats buying via KYC on a centralized exchange\n\nWe should get back to building the pseudonymous economy",
+      "user": {
+        "name": "jin",
+        "screen_name": "dankvr",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1978953911630266368/8o4Nkuz7_normal.jpg"
+      },
+      "created_at": "2026-04-01T20:35:20.000Z",
+      "favorite_count": 5,
+      "retweet_count": 0,
+      "url": "https://x.com/dankvr/status/2039441503345377586",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2038874294562775081",
+      "text": "If you are an early-stage founder building a startup in Nigeria. This is one opportunity you shouldn't miss.\n\nStand a chance to get up to N10,000,000 equity-free funding and Mentorship to scale faster.\n\nApply for Founders Lab by \n@iDICEStartup\nidicestartupbridge.ng\n\nGood luck!",
+      "user": {
+        "name": "Digital Opportunities on Ladder",
+        "screen_name": "LadderbyIWB",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2036338292493271040/y0WVOA25_normal.jpg"
+      },
+      "created_at": "2026-03-31T07:01:26.000Z",
+      "favorite_count": 3,
+      "retweet_count": 0,
+      "url": "https://x.com/LadderbyIWB/status/2038874294562775081",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2039312154864611672",
+      "text": "6/ Try ZapTip\n\n\u2192 Live app: \nzaptip.vercel.app \n\u2192 GitHub: \ngithub.com/VibeCodeWithAc\n\u2026\n\n\u2014\u2014\u2014\u2014\n\nThis is my submission to the Starkzap Developer Bounty Program by \n@Starknet\ncc: \n@starkience\n @adiiHQ",
+      "user": {
+        "name": "knightt",
+        "screen_name": "aboy_nuel",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1946491811687452672/o2iw8avI_normal.jpg"
+      },
+      "created_at": "2026-04-01T12:01:20.000Z",
+      "favorite_count": 3,
+      "retweet_count": 0,
+      "url": "https://x.com/aboy_nuel/status/2039312154864611672",
+      "query": "developer bounty program"
+    },
+    {
+      "id": "2039732959293444265",
+      "text": "Try it live: \nsoloia-app.vercel.app\nOpen-source: \ngithub.com/Beleo91/soloia\n\u2026\n\nBuilt for the \n@SuperteamEarn\n bounty!  Let's elevate the Web3 dev experience. #Solana #Web3Dev #Superteam",
+      "user": {
+        "name": "B\u00ealeu.sol",
+        "screen_name": "bLeosoares",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1984444540611158016/LZncMl27_normal.jpg"
+      },
+      "created_at": "2026-04-02T15:53:28.000Z",
+      "favorite_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/bLeosoares/status/2039732959293444265",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2027021029151842392",
+      "text": "Daniel Stenberg, founder and lead developer of cURL, has had enough of AI slop and is closing down its bug bounty program.\n\nBy \n@sjvn",
+      "user": {
+        "name": "The New Stack",
+        "screen_name": "thenewstack",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/650494844536647680/kxpz8kAv_normal.png"
+      },
+      "created_at": "2026-02-26T14:00:48.000Z",
+      "favorite_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/thenewstack/status/2027021029151842392",
+      "query": "developer bounty program"
+    },
+    {
+      "id": "2039644256889909600",
+      "text": "We are one of the organizers of a new edition of Campus Salud Gandia, a #hackathon focused on #innovation in health and well-being.\n April 30 \u2013 May 1\nFree for students \nCoordinated by Jose Millet Roig\nRegistration is now open\n \ncampussaludgandia.com",
+      "user": {
+        "name": "ITACA Institute",
+        "screen_name": "itacaUPV",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1440582823774019584/x2zC0YjR_normal.jpg"
+      },
+      "created_at": "2026-04-02T10:01:00.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/itacaUPV/status/2039644256889909600",
+      "query": "hackathon registration open"
+    },
+    {
+      "id": "2039754296506642630",
+      "text": "Learn Startup India Scheme Benefits, eligibility, documents, and how to apply online. Get tax benefits, funding support, and startup growth opportunities in India.\nClick here\u2014 \ngovtsimplified.org/startup-india-\n\u2026",
+      "user": {
+        "name": "Geetesh Kumar",
+        "screen_name": "LawInsight_11",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2030294705486102528/hoecWksL_normal.jpg"
+      },
+      "created_at": "2026-04-02T17:18:15.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/LawInsight_11/status/2039754296506642630",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2039708227210760671",
+      "text": "Applications are open for the St Andrews New Venture Challenge.\n\n\u00a321,000 in funding available across startup grants, founder prizes and a new science and engineering award.\n\nDeadline 13 April.\n\nApply:\nst-andrews.startuptree.co/event/s/iMwoF4\n\u2026\n\n#Business #New #StAndrewsUni #Innovation #Founders",
+      "user": {
+        "name": "St Andrews Innovation",
+        "screen_name": "St_AInnovation",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1668574203484819458/XV3KCGEp_normal.jpg"
+      },
+      "created_at": "2026-04-02T14:15:11.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/St_AInnovation/status/2039708227210760671",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2039568614462718107",
+      "text": "Sure, but GMX is decentralized unlike most perp dexes, yet was drained by a smart contract exploit\n\nAnd that was one of the most forked contracts ever, 4+ years old, open source, had a huge bug bounty...",
+      "user": {
+        "name": "Lazarillo",
+        "screen_name": "ILiketoCope",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2031711890615791616/cFatzjxk_normal.jpg"
+      },
+      "created_at": "2026-04-02T05:00:25.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/ILiketoCope/status/2039568614462718107",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2038059029197381983",
+      "text": "We are integrating open-source AI agents into our Lightning builder workflows to generate detailed bug bounty writeups for routing logic. This automation experiment secures privacy-preserving Bitcoin tools by running vulnerability scans across the broader...",
+      "user": {
+        "name": "thousandx",
+        "screen_name": "hundredx112599",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1937552556793765889/M6FZo127_normal.jpg"
+      },
+      "created_at": "2026-03-29T01:01:52.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/hundredx112599/status/2038059029197381983",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2035562114635501951",
+      "text": "Now, first thing you need to understand is this.\n@JoinPond\n isn\u2019t just another bounty platform.\n\nIt sits in a very specific position between:\n\nProduct testing, User feedback and open-source funding.\n\nSo instead of projects guessing what users want.\n\nThey come to \n@JoinPond\n and",
+      "user": {
+        "name": "EthanGem",
+        "screen_name": "cryptheneon",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2031684853771497472/yap9p1xv_normal.jpg"
+      },
+      "created_at": "2026-03-22T03:40:01.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/cryptheneon/status/2035562114635501951",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2039616637465186389",
+      "text": "@SETechGuys\n  FINAL COUNTDOWN! SEDC extends South East startup funding deadline to TOMORROW (April 3). $50M VC fund offers $5K-25K seed across Fintech, Agritech, Healthtech & more. Last chance to apply! \nsedc.gov.ng/programs/sevcp #SETech #SouthEastTech #StartupFunding #Deadline",
+      "user": {
+        "name": "South East Tech",
+        "screen_name": "SETechGuys",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1955148157953753088/QIFqaeql_normal.jpg"
+      },
+      "created_at": "2026-04-02T08:11:15.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/SETechGuys/status/2039616637465186389",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2038773646529863984",
+      "text": "NEW FUNDING! Federal govt + partners launched iDICE 'Startup Bridge' with \u20a61 billion for 100 Nigerian founders. If you're building in SE Nigeria, this is another capital source to explore. Apply and get connected! #SETech #SouthEastNigeria #TechStartups #Funding #iDICE",
+      "user": {
+        "name": "South East Tech",
+        "screen_name": "SETechGuys",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1955148157953753088/QIFqaeql_normal.jpg"
+      },
+      "created_at": "2026-03-31T00:21:30.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/SETechGuys/status/2038773646529863984",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2037155356833714542",
+      "text": " Scale your #startup without giving up equity or data control. Join \n@OVHcloud\n #StartupProgram 2026:\n\n Up to \u20ac100K ($150K CAD) in cloud credits\n 20h 1:1 technical consult\n Local ambassador support\n Access to market & funding\n\n Apply now: \nstartup.ovhcloud.com",
+      "user": {
+        "name": "StartUs Magazine",
+        "screen_name": "StartUsMag",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1329379072896536576/6vsC_T6L_normal.png"
+      },
+      "created_at": "2026-03-26T13:11:00.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/StartUsMag/status/2037155356833714542",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2039340479355969892",
+      "text": "The Women in Tech accelerator program is designed to help women-owned businesses that leverage on technology, to sharpen their business skills, receive mentorship and access financial support to scale.\n\nApplications for Cohort 9 are now open.\nRegister now: \nwomenintech.ke",
+      "user": {
+        "name": "Standard Chartered",
+        "screen_name": "StanChartKE",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1409467566121271299/tufhyfvf_normal.jpg"
+      },
+      "created_at": "2026-04-01T13:53:54.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/StanChartKE/status/2039340479355969892",
+      "query": "tech accelerator applications open"
+    },
+    {
+      "id": "2039274240692613188",
+      "text": "It's here. The Women in Tech Accelerator is officially open for applications in the UAE, continuing support for women entrepreneurs.",
+      "user": {
+        "name": "Standard Chartered UAE",
+        "screen_name": "StanChartUAE",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1953402718069923840/mn5D1oxQ_normal.png"
+      },
+      "created_at": "2026-04-01T09:30:41.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/StanChartUAE/status/2039274240692613188",
+      "query": "tech accelerator applications open"
+    },
+    {
+      "id": "2021593038603030602",
+      "text": "The Women in Tech Accelerator will soon open for its 2026 cohort across Africa, the Middle East, and Pakistan. If you\u2019re a woman-led, tech-enabled, impact-driven startup, stay tuned for the call for applications!",
+      "user": {
+        "name": "Village Capital",
+        "screen_name": "villagecapital",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1587433411580514306/K2J_OQIg_normal.jpg"
+      },
+      "created_at": "2026-02-11T14:31:54.000Z",
+      "favorite_count": 0,
+      "retweet_count": 1,
+      "url": "https://x.com/villagecapital/status/2021593038603030602",
+      "query": "tech accelerator applications open"
+    }
+  ]
+}
