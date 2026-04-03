@@ -1,0 +1,336 @@
+{
+  "date": "2026-04-03",
+  "tweet_count": 22,
+  "tweets": [
+    {
+      "id": "2039767260144001415",
+      "text": "HackerOne's Internet Bug Bounty (IBB) paused new submissions as of March 27, 2026.\n\nIBB rewards vulnerability discovery and remediation in open source projects like Django, Rails, and Apache.\n\nAI is expanding vuln discovery faster than the open source ecosystem can remediate. ",
+      "user": {
+        "name": "Seokchan Yoon / \uc724\uc11d\ucc2c",
+        "screen_name": "_seokchan_yoon",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1910988386870886400/E834cPUJ_normal.jpg"
+      },
+      "created_at": "2026-04-02T18:09:46.000Z",
+      "favorite_count": 56,
+      "retweet_count": 5,
+      "url": "https://x.com/_seokchan_yoon/status/2039767260144001415",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2026837930904363281",
+      "text": "The proof is in the Percolator.\n\nNot only are we building in public -> we are building completely open source.\n\n726 commits + 500+ deployments + 11 forks. External contributors getting paid for PR's and bug reports.\n\nPermissionless perpetual futures -> deploy a perp market for",
+      "user": {
+        "name": "Percolator",
+        "screen_name": "1980346190404415886",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2021265106936659971/1hbeyYWT_normal.jpg"
+      },
+      "created_at": "2026-02-26T01:53:14.000Z",
+      "favorite_count": 54,
+      "retweet_count": 32,
+      "url": "https://x.com/Percolator_ct/status/2026837930904363281",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2040056595397460085",
+      "text": " $30,000 Biggest MEGA AI Hackathon\n\nBuild RL environments on Meta's OpenEnv \n\n~ Interview access at Meta & Hugging Face\n~ Free RL training from Hugging Face & PyTorch\n~ Your code ships to a Meta open source project\n\nRegistration closes in 3 HOURS ",
+      "user": {
+        "name": "Venture Launch",
+        "screen_name": "venture_launch",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1956001347385405446/p6hDGblw_normal.jpg"
+      },
+      "created_at": "2026-04-03T13:19:29.000Z",
+      "favorite_count": 38,
+      "retweet_count": 1,
+      "url": "https://x.com/venture_launch/status/2040056595397460085",
+      "query": "hackathon registration open"
+    },
+    {
+      "id": "2039796962665660510",
+      "text": "every model has the ability to reveal zero days in commonly used open source projects\n\n(humans do too) \nI have seen bug bounty hackers find CVE 8+ 0-days on next.js 2-3 times \n\nI have seen gemini pro find 0-day SQLis in other OSS stuff \n\nthat future is already here",
+      "user": {
+        "name": "Kyle Mistele",
+        "screen_name": "0xblacklight",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1963798786808893440/7sGuG61q_normal.jpg"
+      },
+      "created_at": "2026-04-02T20:07:48.000Z",
+      "favorite_count": 37,
+      "retweet_count": 0,
+      "url": "https://x.com/0xblacklight/status/2039796962665660510",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2040114657474805855",
+      "text": "4 Hackathons.. 4 Weeks.. $4,000..\n\nREGISTRATION IS NOW OPEN ON \n@devfolio\n!\n\nThe Locus Paygentic Hackathon Series spans 4 weeks! 1 track per week, $4000 in prizes over the series. \n\nSign up at the devfolio link below and join the discord!\npaygentic-week1.devfolio.co/overview",
+      "user": {
+        "name": "Locus",
+        "screen_name": "PayWithLocus",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1993742128141488161/Y0JrYjPq_normal.jpg"
+      },
+      "created_at": "2026-04-03T17:10:12.000Z",
+      "favorite_count": 24,
+      "retweet_count": 3,
+      "url": "https://x.com/PayWithLocus/status/2040114657474805855",
+      "query": "hackathon registration open"
+    },
+    {
+      "id": "2029047790110949584",
+      "text": "BGA Spring 2026 Incubation is open. \n\nIf you are building with blockchain to solve something real, this is your window. Applications close 13 March. \n\nWhat's on the table for selected projects: \n Grants of up to $10,000 USDT \n Bybit Web3 Livestream feature \n 1 on 1",
+      "user": {
+        "name": "Blockchain for Good Alliance (BGA)",
+        "screen_name": "ChainforGood",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1775376149620912128/kRzMnegw_normal.jpg"
+      },
+      "created_at": "2026-03-04T04:14:25.000Z",
+      "favorite_count": 24,
+      "retweet_count": 7,
+      "url": "https://x.com/ChainforGood/status/2029047790110949584",
+      "query": "web3 grants open"
+    },
+    {
+      "id": "2040012057387421996",
+      "text": "Did you know that Blink Labs has had a paid open source contributor program for a year? We now have 10 contributors and counting. Our most recent addition joined us by contributing to our projects consistently. Now they're getting a paycheck. No milestones. No reports. Just code.",
+      "user": {
+        "name": "Blink Labs",
+        "screen_name": "blinklabs_io",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1675505386026070024/ux_be-bz_normal.jpg"
+      },
+      "created_at": "2026-04-03T10:22:30.000Z",
+      "favorite_count": 15,
+      "retweet_count": 1,
+      "url": "https://x.com/blinklabs_io/status/2040012057387421996",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2029678421270257713",
+      "text": "Daniel Stenberg, founder and lead developer of cURL, has had enough of AI slop and is closing down its bug bounty program.\n\nBy \n@sjvn",
+      "user": {
+        "name": "The New Stack",
+        "screen_name": "thenewstack",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/650494844536647680/kxpz8kAv_normal.png"
+      },
+      "created_at": "2026-03-05T22:00:19.000Z",
+      "favorite_count": 3,
+      "retweet_count": 1,
+      "url": "https://x.com/thenewstack/status/2029678421270257713",
+      "query": "developer bounty program"
+    },
+    {
+      "id": "2040124103856627918",
+      "text": "Axel \n@Axel_bitblaze69\n built a viral open-source tool for Claude AI called TradingView MCP.\n\nIt\u2019s already blowing up and even has its own page on X trending right now \n\n\n\nSupporting Alex with \n@Pumpfun\n GitHub Sponsorship since he needs sponsors for this",
+      "user": {
+        "name": "Klea",
+        "screen_name": "real_klea",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2030447585270386688/P0kUj_Zk_normal.jpg"
+      },
+      "created_at": "2026-04-03T17:47:44.000Z",
+      "favorite_count": 3,
+      "retweet_count": 0,
+      "url": "https://x.com/real_klea/status/2040124103856627918",
+      "query": "open source sponsorship"
+    },
+    {
+      "id": "2039770667088830569",
+      "text": "Love the work Web3 Foundation is doing with grants. We help foundations track the real on-chain impact of funded projects by filtering out sybil noise from actual user growth. Could be a game-changer for your next funding cycle. Open to a brief sync?",
+      "user": {
+        "name": "Lucas | Cryptosave",
+        "screen_name": "LucasXld",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2039637040288215040/TNNMhpNg_normal.jpg"
+      },
+      "created_at": "2026-04-02T18:23:18.000Z",
+      "favorite_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/LucasXld/status/2039770667088830569",
+      "query": "web3 grants open"
+    },
+    {
+      "id": "2040051706076254407",
+      "text": "Most early Web3 founders don\u2019t get access to top advisors.\nWeb3 X founders do.\n\nLearn from operators from:\nL1/L2 ecosystems\nVC funds\nExchanges\nSecurity firms\nInfra projects\n\nThis is the network most startups get after funding.\nWe give you access earlier.\n\nApply ",
+      "user": {
+        "name": "Web3 X",
+        "screen_name": "W3X_NW",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1899768193658314752/l1EL_dPB_normal.jpg"
+      },
+      "created_at": "2026-04-03T13:00:03.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/W3X_NW/status/2040051706076254407",
+      "query": "VC funding founders apply"
+    },
+    {
+      "id": "1990296378464215117",
+      "text": "TiE Silicon Valley\u2019s Funding Fridays connects founders with investors through curated 1:1 meetings to support their next funding round.\n\nThis month\u2019s participating VC: Venky Karnam, General Partner at Shift Left Ventures.\n\nApply: \nluma.com/xom46wqq\n\n#FundingFridays",
+      "user": {
+        "name": "TiE Silicon Valley",
+        "screen_name": "tiesv",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1148715569203466241/FQ924Tgj_normal.png"
+      },
+      "created_at": "2025-11-17T05:50:09.000Z",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/tiesv/status/1990296378464215117",
+      "query": "VC funding founders apply"
+    },
+    {
+      "id": "2039834607177068603",
+      "text": "Tips for Founders:\n Apply early for grants \u2014 they help validate your idea before big VC money. \n Use hackathons to prototype fast and get real feedback. \n Read evaluation guidelines (like why your project fits Solana). \n Join developer networks \u2014 it makes growth faster.",
+      "user": {
+        "name": "will vandom",
+        "screen_name": "Will_11711",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1961462057187889153/l5pQlfNp_normal.jpg"
+      },
+      "created_at": "2026-04-02T22:37:23.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/Will_11711/status/2039834607177068603",
+      "query": "developer grants apply"
+    },
+    {
+      "id": "2040109869001330921",
+      "text": "Open Source Intel op X: 'Iranian reports say the bounty for the remaining U.S. pilot has been raised to 15 billion tomans (~$90,000), with a Khuzestan company offering the reward for information on his location.'",
+      "user": {
+        "name": "JuVi",
+        "screen_name": "SciteCito",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1169889134237736960/r_eC6T-Z_normal.png"
+      },
+      "created_at": "2026-04-03T16:51:10.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/SciteCito/status/2040109869001330921",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2040095096960348613",
+      "text": "Yeh, I appreciate that - definitely not blaming them. They also get a lot more AI reports due to the nature of open-source, but it's not gonna stop attackers. I think a lot of bug bounty programs will move more towards private programs with trusted researchers.",
+      "user": {
+        "name": "CryptoCat",
+        "screen_name": "_CryptoCat",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2005943766868250624/4wncI1fi_normal.jpg"
+      },
+      "created_at": "2026-04-03T15:52:28.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/_CryptoCat/status/2040095096960348613",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2035764066502033755",
+      "text": "AI is finding vulnerabilities faster than humans can fix them. Curl had to shut down its bug bounty -- drowning in AI-generated reports. Now 7 companies including Anthropic, Google, and OpenAI just pledged $12.5M to defend open source.",
+      "user": {
+        "name": "The Daily Agent",
+        "screen_name": "TheDailyAgent",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2031875255766228992/uRncmKmc_normal.jpg"
+      },
+      "created_at": "2026-03-22T17:02:30.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/TheDailyAgent/status/2035764066502033755",
+      "query": "open source bounty"
+    },
+    {
+      "id": "2040098068905766985",
+      "text": "Why it\u2019s worth checking out \n\u2022  Perfect for developers & open-source contributors: Turn GitHub issues into paid bounties\n\u2022  Great for freelancers: Find real tasks in Web3, content, design, social, and more",
+      "user": {
+        "name": "Billionz DeFi",
+        "screen_name": "BillionzDeFi",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/2008955119665065984/i-vwGWSe_normal.jpg"
+      },
+      "created_at": "2026-04-03T16:04:17.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/BillionzDeFi/status/2040098068905766985",
+      "query": "paid open source contributors"
+    },
+    {
+      "id": "2040077762224968173",
+      "text": "Northwestern's annual student startup competition is back with $175K+ in non-dilutive funding. Student founders: this is your shot.\n Deadline: April 9\n Apply at \nventurecat.nu/apply",
+      "user": {
+        "name": "Farley Center for Entrepreneurship and Innovation",
+        "screen_name": "FarleyCenterNU",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1370446637013815302/BnjXKOkN_normal.jpg"
+      },
+      "created_at": "2026-04-03T14:43:35.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/FarleyCenterNU/status/2040077762224968173",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2040024512348213447",
+      "text": "This is a massive opportunity for entrepreneurs across North Carolina to showcase their business and compete for significant funding. If you have a startup or a growing business, you cannot afford to let this chance slip away.\n\nApply before the deadline: \nnccommunitycolleges.edu/sbcnstartupsho\n\u2026",
+      "user": {
+        "name": "SBC @ SPCC",
+        "screen_name": "spccsbc",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1353762547430682625/O_BTOxWG_normal.png"
+      },
+      "created_at": "2026-04-03T11:12:00.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/spccsbc/status/2040024512348213447",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2039861307982168572",
+      "text": " LAST DAY! South East founders: Apply now for SEDC's $50M VC program before applications close. Get $5K-20K seed funding for your tech startup. Don't miss this regional opportunity! Apply: \nsedc.gov.ng/programs/sevcp #SETech #SouthEastTech #StartupFunding #DeadlineDay",
+      "user": {
+        "name": "South East Tech",
+        "screen_name": "SETechGuys",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1955148157953753088/QIFqaeql_normal.jpg"
+      },
+      "created_at": "2026-04-03T00:23:29.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/SETechGuys/status/2039861307982168572",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2036026839915786672",
+      "text": "Thanks for the feedback. \nApplications are now open for Cohort 1 of the iDICE Startup Bridge. It's one of the iDICE's programme's capacity-building initiatives supporting tech founders with training, mentorship, and funding pathways.\n\nYou can apply here:",
+      "user": {
+        "name": "Investment in Digital and Creative Enterprises",
+        "screen_name": "iDICE_Nigeria",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1834542241429286913/WI2KCJBW_normal.jpg"
+      },
+      "created_at": "2026-03-23T10:26:40.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/iDICE_Nigeria/status/2036026839915786672",
+      "query": "startup funding apply"
+    },
+    {
+      "id": "2036021888087105612",
+      "text": " Scale your #startup without giving up equity or data control. Join \n@OVHcloud\n #StartupProgram 2026:\n\n Up to \u20ac100K ($150K CAD) in cloud credits\n 20h 1:1 technical consult\n Local ambassador support\n Access to market & funding\n\n Apply now: \nstartup.ovhcloud.com",
+      "user": {
+        "name": "StartUs Insights",
+        "screen_name": "StartUsInsights",
+        "followers": 0,
+        "profile_image": "https://pbs.twimg.com/profile_images/1569292479601545218/ZKVO74wB_normal.png"
+      },
+      "created_at": "2026-03-23T10:07:00.000Z",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/StartUsInsights/status/2036021888087105612",
+      "query": "startup funding apply"
+    }
+  ]
+}
